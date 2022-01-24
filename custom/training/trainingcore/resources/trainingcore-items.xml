@@ -104,5 +104,75 @@
             </itemtype>
         </typegroup>
 
+        <typegroup name="Training">
+            <itemtype code="Province" extends="GenericItem" jaloclass="org.training.core.jalo.Province" autocreate="true" generate="true">
+                <deployment table="Provinces" typecode="12001"/>
+                <attributes>
+                    <attribute qualifier="code" type="java.lang.String">
+                        <description>Province Code</description>
+                        <modifiers read="true" write="true" search="true" optional="false" unique="true"/>
+                        <persistence type="property"/>
+                    </attribute>
+                    <attribute qualifier="name" type="localized:java.lang.String">
+                        <description>Province Name</description>
+                        <modifiers read="true" write="true" search="true" optional="true" unique="false"/>
+                        <persistence type="property"/>
+                    </attribute>
+                </attributes>
+                <indexes>
+                    <index name="province_idx" unique="true">
+                        <key attribute="code"/>
+                    </index>
+                </indexes>
+            </itemtype>
+
+            <itemtype code="City" extends="GenericItem" jaloclass="org.training.core.jalo.City" autocreate="true" generate="true">
+                <deployment table="City" typecode="12002"/>
+                <attributes>
+                    <attribute qualifier="code" type="java.lang.String">
+                        <description>City Code</description>
+                        <modifiers read="true" write="true" search="true" optional="false" unique="true"/>
+                        <persistence type="property"/>
+                    </attribute>
+                    <attribute qualifier="name" type="java.lang.String">
+                        <description>City Name</description>
+                        <modifiers read="true" write="true" search="true" optional="true" unique="false"/>
+                        <persistence type="property"/>
+                    </attribute>
+                </attributes>
+                <indexes>
+                    <index name="city_idx" unique="true">
+                        <key attribute="code"/>
+                    </index>
+                </indexes>
+            </itemtype>
+           
+            <itemtype code="TrainingProduct" autocreate="true" generate="true" extends="Product">
+                <attributes>
+                    <attribute qualifier="searchable" type="java.lang.Boolean">
+                        <description>Is searchable Product</description>
+                        <modifiers/>
+                        <defaultvalue>Boolean.valueOf(true)</defaultvalue>
+                        <persistence type="property"/>
+                    </attribute>
+                </attributes>
+            </itemtype>
+            
+            <itemtype code="TrainingVariantProduct" extends="VariantProduct" autocreate="true" generate="true">
+                <attributes>
+                    <attribute qualifier="sku" type="java.lang.String">
+                        <description>SKU Product</description>
+                        <modifiers initial="true" optional="true"/>
+                        <persistence type="property"/>
+                    </attribute>
+                    <attribute qualifier="material" type="java.lang.String">
+                        <description>Material Product</description>
+                        <modifiers initial="true" optional="true"/>
+                        <persistence type="property"/>
+                    </attribute>
+                </attributes>
+              </itemtype>
+          </typegroup>
+
     </itemtypes>
 </items>

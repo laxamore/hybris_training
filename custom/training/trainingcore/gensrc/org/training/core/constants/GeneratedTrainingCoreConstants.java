@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at Jan 21, 2022, 2:54:51 PM                    ---
+ * --- Generated at Jan 24, 2022, 12:14:20 PM                   ---
  * ----------------------------------------------------------------
  */
 package org.training.core.constants;
@@ -19,8 +19,12 @@ public class GeneratedTrainingCoreConstants
 		public static final String APPARELPRODUCT = "ApparelProduct".intern();
 		public static final String APPARELSIZEVARIANTPRODUCT = "ApparelSizeVariantProduct".intern();
 		public static final String APPARELSTYLEVARIANTPRODUCT = "ApparelStyleVariantProduct".intern();
+		public static final String CITY = "City".intern();
 		public static final String ELECTRONICSCOLORVARIANTPRODUCT = "ElectronicsColorVariantProduct".intern();
+		public static final String PROVINCE = "Province".intern();
 		public static final String SWATCHCOLORENUM = "SwatchColorEnum".intern();
+		public static final String TRAININGPRODUCT = "TrainingProduct".intern();
+		public static final String TRAININGVARIANTPRODUCT = "TrainingVariantProduct".intern();
 	}
 	public static class Attributes
 	{
