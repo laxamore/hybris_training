@@ -1,6 +1,6 @@
 # Language
-$lang = id
+$lang = en
 
 INSERT_UPDATE Province; code[unique = true]; name[lang = $lang]
                   ; JAKARTA    ; Jakarta
-                  ; JAWA_BARAT ; Jawa Barat
+                  ; JAWA_BARAT ; West Java

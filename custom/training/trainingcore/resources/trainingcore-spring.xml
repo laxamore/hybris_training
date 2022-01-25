@@ -537,5 +537,11 @@
 	<bean id="defaultCSTicketStagnationAction" class="org.training.core.retention.impl.DefaultCSTicketStagnationAction" parent="abstractExtensibleRemoveCleanupAction">
 		<property name="itemCleanupHooks" ref="csTicketRetentionHooks"/>
 		<property name="ticketBusinessService" ref="ticketBusinessService"/>
-	</bean>
+  </bean>
+
+	<!-- Custom Cronjob -->
+	<bean id="myJobPerformable" class="org.training.core.job.MyJobPerformable" parent="abstractJobPerformable" />
+
+	<!-- Current Date Cronjob -->
+	<bean id="currentDateJob" class="org.training.core.job.CurrentDateJob" parent="abstractJobPerformable" />
 </beans>
