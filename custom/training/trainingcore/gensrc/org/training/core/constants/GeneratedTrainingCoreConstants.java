@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at Jan 24, 2022, 12:14:20 PM                   ---
+ * --- Generated at Jan 24, 2022, 8:07:04 PM                    ---
  * ----------------------------------------------------------------
  */
 package org.training.core.constants;
@@ -22,13 +22,17 @@ public class GeneratedTrainingCoreConstants
 		public static final String CITY = "City".intern();
 		public static final String ELECTRONICSCOLORVARIANTPRODUCT = "ElectronicsColorVariantProduct".intern();
 		public static final String PROVINCE = "Province".intern();
+		public static final String SUPPLIER = "Supplier".intern();
 		public static final String SWATCHCOLORENUM = "SwatchColorEnum".intern();
 		public static final String TRAININGPRODUCT = "TrainingProduct".intern();
 		public static final String TRAININGVARIANTPRODUCT = "TrainingVariantProduct".intern();
 	}
 	public static class Attributes
 	{
-		// no constants defined.
+		public static class VariantProduct
+		{
+			public static final String SUPPLIER = "supplier".intern();
+		}
 	}
 	public static class Enumerations
 	{
@@ -47,6 +51,10 @@ public class GeneratedTrainingCoreConstants
 			public static final String WHITE = "WHITE".intern();
 			public static final String YELLOW = "YELLOW".intern();
 		}
+	}
+	public static class Relations
+	{
+		public static final String SUPPLIER2VARPROD = "Supplier2VarProd".intern();
 	}
 	
 	protected GeneratedTrainingCoreConstants()

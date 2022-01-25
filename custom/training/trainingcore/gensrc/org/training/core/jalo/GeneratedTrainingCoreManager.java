@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at Jan 24, 2022, 12:14:20 PM                   ---
+ * --- Generated at Jan 24, 2022, 8:07:04 PM                    ---
  * ----------------------------------------------------------------
  */
 package org.training.core.jalo;
@@ -12,8 +12,11 @@ import de.hybris.platform.jalo.JaloBusinessException;
 import de.hybris.platform.jalo.JaloSystemException;
 import de.hybris.platform.jalo.SessionContext;
 import de.hybris.platform.jalo.extension.Extension;
+import de.hybris.platform.jalo.product.Product;
 import de.hybris.platform.jalo.type.ComposedType;
 import de.hybris.platform.jalo.type.JaloGenericCreationException;
+import de.hybris.platform.variants.jalo.VariantProduct;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import org.training.core.constants.TrainingCoreConstants;
@@ -23,6 +26,7 @@ import org.training.core.jalo.ApparelStyleVariantProduct;
 import org.training.core.jalo.City;
 import org.training.core.jalo.ElectronicsColorVariantProduct;
 import org.training.core.jalo.Province;
+import org.training.core.jalo.Supplier;
 import org.training.core.jalo.TrainingProduct;
 import org.training.core.jalo.TrainingVariantProduct;
 
@@ -36,6 +40,9 @@ public abstract class GeneratedTrainingCoreManager extends Extension
 	static
 	{
 		final Map<String, Map<String, AttributeMode>> ttmp = new HashMap();
+		Map<String, AttributeMode> tmp = new HashMap<String, AttributeMode>();
+		tmp.put("supplier", AttributeMode.INITIAL);
+		ttmp.put("de.hybris.platform.variants.jalo.VariantProduct", Collections.unmodifiableMap(tmp));
 		DEFAULT_INITIAL_ATTRIBUTES = ttmp;
 	}
 	@Override
@@ -206,6 +213,32 @@ public abstract class GeneratedTrainingCoreManager extends Extension
 		return createProvince( getSession().getSessionContext(), attributeValues );
 	}
 	
+	public Supplier createSupplier(final SessionContext ctx, final Map attributeValues)
+	{
+		try
+		{
+			ComposedType type = getTenant().getJaloConnection().getTypeManager().getComposedType( TrainingCoreConstants.TC.SUPPLIER );
+			return (Supplier)type.newInstance( ctx, attributeValues );
+		}
+		catch( JaloGenericCreationException e)
+		{
+			final Throwable cause = e.getCause();
+			throw (cause instanceof RuntimeException ?
+			(RuntimeException)cause
+			:
+			new JaloSystemException( cause, cause.getMessage(), e.getErrorCode() ) );
+		}
+		catch( JaloBusinessException e )
+		{
+			throw new JaloSystemException( e ,"error creating Supplier : "+e.getMessage(), 0 );
+		}
+	}
+	
+	public Supplier createSupplier(final Map attributeValues)
+	{
+		return createSupplier( getSession().getSessionContext(), attributeValues );
+	}
+	
 	public TrainingProduct createTrainingProduct(final SessionContext ctx, final Map attributeValues)
 	{
 		try
@@ -262,6 +295,42 @@ public abstract class GeneratedTrainingCoreManager extends Extension
 	public String getName()
 	{
 		return TrainingCoreConstants.EXTENSIONNAME;
+	}
+	
+	/**
+	 * <i>Generated method</i> - Getter of the <code>VariantProduct.supplier</code> attribute.
+	 * @return the supplier
+	 */
+	public Supplier getSupplier(final SessionContext ctx, final VariantProduct item)
+	{
+		return (Supplier)item.getProperty( ctx, TrainingCoreConstants.Attributes.VariantProduct.SUPPLIER);
+	}
+	
+	/**
+	 * <i>Generated method</i> - Getter of the <code>VariantProduct.supplier</code> attribute.
+	 * @return the supplier
+	 */
+	public Supplier getSupplier(final VariantProduct item)
+	{
+		return getSupplier( getSession().getSessionContext(), item );
+	}
+	
+	/**
+	 * <i>Generated method</i> - Setter of the <code>VariantProduct.supplier</code> attribute. 
+	 * @param value the supplier
+	 */
+	public void setSupplier(final SessionContext ctx, final VariantProduct item, final Supplier value)
+	{
+		item.setProperty(ctx, TrainingCoreConstants.Attributes.VariantProduct.SUPPLIER,value);
+	}
+	
+	/**
+	 * <i>Generated method</i> - Setter of the <code>VariantProduct.supplier</code> attribute. 
+	 * @param value the supplier
+	 */
+	public void setSupplier(final VariantProduct item, final Supplier value)
+	{
+		setSupplier( getSession().getSessionContext(), item, value );
 	}
 	
 }

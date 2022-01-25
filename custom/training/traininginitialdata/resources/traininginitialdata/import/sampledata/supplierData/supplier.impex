@@ -1,0 +1,5 @@
+INSERT_UPDATE Supplier; code[unique = true]; name               ; city(code)       ; province(code)
+                      ; SUPPLIER-1         ; Supplier PULLNBEAR ; JAKARTA_SELATAN  ; JAKARTA
+                      ; SUPPLIER-2         ; Supplier CONVERSE  ; JAKARTA_UTARA    ; JAKARTA
+                      ; SUPPLIER-3         ; Supplier HURLEY    ; JAKARTA_SELATAN  ; JAKARTA
+                      ; SUPPLIER-4         ; Supplier COLE      ; BEKASI           ; JAWA_BARAT

@@ -1,0 +1,4 @@
+INSERT_UPDATE City; code[unique = true]; name
+                  ; JAKARTA_UTARA      ; Jakarta Utara
+                  ; JAKARTA_SELATAN    ; Jakarta Selatan
+                  ; BEKASI             ; Bekasi 
