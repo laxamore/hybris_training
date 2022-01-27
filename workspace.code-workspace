@@ -1,0 +1,1556 @@
+{
+  "folders": [
+    {
+      "name": "config",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/config"
+    },
+    {
+      "name": "modules/hybris-utilities/hybristransportandchange",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/hybris-utilities/hybristransportandchange"
+    },
+    {
+      "name": "modules/hybris-utilities/hybrisdatasupplier",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/hybris-utilities/hybrisdatasupplier"
+    },
+    {
+      "name": "modules/hybris-utilities/hybrisdatasupplierbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/hybris-utilities/hybrisdatasupplierbackoffice"
+    },
+    {
+      "name": "modules/hybris-utilities/hybrisrootcauseanalysis",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/hybris-utilities/hybrisrootcauseanalysis"
+    },
+    {
+      "name": "modules/npm-ancillary/npmancillary",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/npm-ancillary/npmancillary"
+    },
+    {
+      "name": "modules/search-and-navigation/solrserver",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/search-and-navigation/solrserver"
+    },
+    {
+      "name": "modules/search-and-navigation/backofficesolrsearch",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/search-and-navigation/backofficesolrsearch"
+    },
+    {
+      "name": "modules/search-and-navigation/solrfacetsearch",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/search-and-navigation/solrfacetsearch"
+    },
+    {
+      "name": "modules/search-and-navigation/solrfacetsearchbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice"
+    },
+    {
+      "name": "modules/smartedit/cmssmartedit",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/smartedit/cmssmartedit"
+    },
+    {
+      "name": "modules/smartedit/cmssmarteditwebservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/smartedit/cmssmarteditwebservices"
+    },
+    {
+      "name": "modules/smartedit/smartedit",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/smartedit/smartedit"
+    },
+    {
+      "name": "modules/smartedit/smarteditaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/smartedit/smarteditaddon"
+    },
+    {
+      "name": "modules/smartedit/smartedittools",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/smartedit/smartedittools"
+    },
+    {
+      "name": "modules/smartedit/smarteditwebservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/smartedit/smarteditwebservices"
+    },
+    {
+      "name": "modules/smartedit/ysmarteditmodule",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/smartedit/ysmarteditmodule"
+    },
+    {
+      "name": "modules/adaptive-search/adaptivesearch",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/adaptive-search/adaptivesearch"
+    },
+    {
+      "name": "modules/adaptive-search/adaptivesearchbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/adaptive-search/adaptivesearchbackoffice"
+    },
+    {
+      "name": "modules/adaptive-search/adaptivesearchfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/adaptive-search/adaptivesearchfacades"
+    },
+    {
+      "name": "modules/adaptive-search/adaptivesearchsamplesaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/adaptive-search/adaptivesearchsamplesaddon"
+    },
+    {
+      "name": "modules/adaptive-search/adaptivesearchsolr",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/adaptive-search/adaptivesearchsolr"
+    },
+    {
+      "name": "modules/adaptive-search/adaptivesearchwebservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/adaptive-search/adaptivesearchwebservices"
+    },
+    {
+      "name": "modules/api-registry/apiregistrybackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/api-registry/apiregistrybackoffice"
+    },
+    {
+      "name": "modules/api-registry/apiregistryservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/api-registry/apiregistryservices"
+    },
+    {
+      "name": "modules/assisted-services/assistedservicecustomerinterestsaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/assisted-services/assistedservicecustomerinterestsaddon"
+    },
+    {
+      "name": "modules/assisted-services/assistedservicecustomerinterestsfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/assisted-services/assistedservicecustomerinterestsfacades"
+    },
+    {
+      "name": "modules/assisted-services/assistedservicefacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/assisted-services/assistedservicefacades"
+    },
+    {
+      "name": "modules/assisted-services/assistedservicepromotionaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/assisted-services/assistedservicepromotionaddon"
+    },
+    {
+      "name": "modules/assisted-services/assistedservicepromotionfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/assisted-services/assistedservicepromotionfacades"
+    },
+    {
+      "name": "modules/assisted-services/assistedserviceservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/assisted-services/assistedserviceservices"
+    },
+    {
+      "name": "modules/assisted-services/assistedservicestorefront",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/assisted-services/assistedservicestorefront"
+    },
+    {
+      "name": "modules/assisted-services/assistedservicewebservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/assisted-services/assistedservicewebservices"
+    },
+    {
+      "name": "modules/assisted-services-integrations/assistedserviceyprofileaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/assisted-services-integrations/assistedserviceyprofileaddon"
+    },
+    {
+      "name": "modules/assisted-services-integrations/assistedserviceyprofilefacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/assisted-services-integrations/assistedserviceyprofilefacades"
+    },
+    {
+      "name": "modules/assisted-services-integrations/yaasyprofileconnect",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/assisted-services-integrations/yaasyprofileconnect"
+    },
+    {
+      "name": "modules/b2b-accelerator/b2bacceleratoraddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-accelerator/b2bacceleratoraddon"
+    },
+    {
+      "name": "modules/b2b-accelerator/b2bacceleratorfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-accelerator/b2bacceleratorfacades"
+    },
+    {
+      "name": "modules/b2b-accelerator/b2bacceleratorservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-accelerator/b2bacceleratorservices"
+    },
+    {
+      "name": "modules/b2b-accelerator/b2bocc",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-accelerator/b2bocc"
+    },
+    {
+      "name": "modules/b2b-accelerator/b2boccaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-accelerator/b2boccaddon"
+    },
+    {
+      "name": "modules/b2b-accelerator/b2bocctests",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-accelerator/b2bocctests"
+    },
+    {
+      "name": "modules/b2b-accelerator/b2bwebservicescommons",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-accelerator/b2bwebservicescommons"
+    },
+    {
+      "name": "modules/b2b-accelerator/commerceorgaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-accelerator/commerceorgaddon"
+    },
+    {
+      "name": "modules/b2b-accelerator/commerceorgsamplesaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-accelerator/commerceorgsamplesaddon"
+    },
+    {
+      "name": "modules/b2b-accelerator/powertoolsstore",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-accelerator/powertoolsstore"
+    },
+    {
+      "name": "modules/b2b-accelerator-addons/accountsummaryaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-accelerator-addons/accountsummaryaddon"
+    },
+    {
+      "name": "modules/b2b-accelerator-addons/b2bpunchout",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-accelerator-addons/b2bpunchout"
+    },
+    {
+      "name": "modules/b2b-accelerator-addons/b2bpunchoutaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-accelerator-addons/b2bpunchoutaddon"
+    },
+    {
+      "name": "modules/b2b-accelerator-addons/savedorderforms",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-accelerator-addons/savedorderforms"
+    },
+    {
+      "name": "modules/b2b-accelerator-addons/savedorderformsocc",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-accelerator-addons/savedorderformsocc"
+    },
+    {
+      "name": "modules/b2b-accelerator-addons/savedorderformsoccaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-accelerator-addons/savedorderformsoccaddon"
+    },
+    {
+      "name": "modules/b2b-accelerator-addons/secureportaladdon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-accelerator-addons/secureportaladdon"
+    },
+    {
+      "name": "modules/b2b-commerce/b2bapprovalprocess",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-commerce/b2bapprovalprocess"
+    },
+    {
+      "name": "modules/b2b-commerce/b2bapprovalprocessfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-commerce/b2bapprovalprocessfacades"
+    },
+    {
+      "name": "modules/b2b-commerce/b2bcommerce",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-commerce/b2bcommerce"
+    },
+    {
+      "name": "modules/b2b-commerce/b2bcommercebackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-commerce/b2bcommercebackoffice"
+    },
+    {
+      "name": "modules/b2b-commerce/b2bcommercefacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2b-commerce/b2bcommercefacades"
+    },
+    {
+      "name": "modules/b2c-accelerator/apparelstore",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2c-accelerator/apparelstore"
+    },
+    {
+      "name": "modules/b2c-accelerator/electronicsstore",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2c-accelerator/electronicsstore"
+    },
+    {
+      "name": "modules/b2c-accelerator-addons/captchaaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2c-accelerator-addons/captchaaddon"
+    },
+    {
+      "name": "modules/b2c-accelerator-addons/hybrisanalyticsaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2c-accelerator-addons/hybrisanalyticsaddon"
+    },
+    {
+      "name": "modules/b2c-accelerator-addons/multicountrysampledataaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2c-accelerator-addons/multicountrysampledataaddon"
+    },
+    {
+      "name": "modules/b2c-accelerator-addons/wishlist",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/b2c-accelerator-addons/wishlist"
+    },
+    {
+      "name": "modules/backoffice-addons/pcmbackofficesamplesaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/backoffice-addons/pcmbackofficesamplesaddon"
+    },
+    {
+      "name": "modules/backoffice-applications/classificationgroupsservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/backoffice-applications/classificationgroupsservices"
+    },
+    {
+      "name": "modules/backoffice-applications/deprecated/y2ysyncbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/backoffice-applications/deprecated/y2ysyncbackoffice"
+    },
+    {
+      "name": "modules/backoffice-applications/mediaconversionbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/backoffice-applications/mediaconversionbackoffice"
+    },
+    {
+      "name": "modules/backoffice-applications/patchesbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/backoffice-applications/patchesbackoffice"
+    },
+    {
+      "name": "modules/backoffice-applications/pcmbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/backoffice-applications/pcmbackoffice"
+    },
+    {
+      "name": "modules/backoffice-applications/samlssobackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/backoffice-applications/samlssobackoffice"
+    },
+    {
+      "name": "modules/backoffice-framework/backoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/backoffice-framework/backoffice"
+    },
+    {
+      "name": "modules/backoffice-framework/platformbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/backoffice-framework/platformbackoffice"
+    },
+    {
+      "name": "modules/backoffice-framework/ybackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/backoffice-framework/ybackoffice"
+    },
+    {
+      "name": "modules/base-accelerator/deprecated/yacceleratorcockpits",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/base-accelerator/deprecated/yacceleratorcockpits"
+    },
+    {
+      "name": "modules/base-accelerator/yacceleratorbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/base-accelerator/yacceleratorbackoffice"
+    },
+    {
+      "name": "modules/base-accelerator/yacceleratorcore",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/base-accelerator/yacceleratorcore"
+    },
+    {
+      "name": "modules/base-accelerator/yacceleratorfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/base-accelerator/yacceleratorfacades"
+    },
+    {
+      "name": "modules/base-accelerator/yacceleratorfulfilmentprocess",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/base-accelerator/yacceleratorfulfilmentprocess"
+    },
+    {
+      "name": "modules/base-accelerator/yacceleratorinitialdata",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/base-accelerator/yacceleratorinitialdata"
+    },
+    {
+      "name": "modules/base-accelerator/yacceleratorstorefront",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/base-accelerator/yacceleratorstorefront"
+    },
+    {
+      "name": "modules/base-accelerator/yacceleratortest",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/base-accelerator/yacceleratortest"
+    },
+    {
+      "name": "modules/base-accelerator/yaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/base-accelerator/yaddon"
+    },
+    {
+      "name": "modules/base-commerce/basecommerce",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/base-commerce/basecommerce"
+    },
+    {
+      "name": "modules/base-commerce/basecommercebackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/base-commerce/basecommercebackoffice"
+    },
+    {
+      "name": "modules/base-commerce/customerreview",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/base-commerce/customerreview"
+    },
+    {
+      "name": "modules/base-commerce/payment",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/base-commerce/payment"
+    },
+    {
+      "name": "modules/base-commerce/promotions",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/base-commerce/promotions"
+    },
+    {
+      "name": "modules/base-commerce/promotionsbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/base-commerce/promotionsbackoffice"
+    },
+    {
+      "name": "modules/base-commerce/voucher",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/base-commerce/voucher"
+    },
+    {
+      "name": "modules/base-commerce/voucherbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/base-commerce/voucherbackoffice"
+    },
+    {
+      "name": "modules/cds-integration/profileservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/cds-integration/profileservices"
+    },
+    {
+      "name": "modules/cds-integration/profiletagaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/cds-integration/profiletagaddon"
+    },
+    {
+      "name": "modules/cds-merchandising/merchandisingaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/cds-merchandising/merchandisingaddon"
+    },
+    {
+      "name": "modules/cds-merchandising/merchandisingcmswebservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/cds-merchandising/merchandisingcmswebservices"
+    },
+    {
+      "name": "modules/cds-merchandising/merchandisingservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/cds-merchandising/merchandisingservices"
+    },
+    {
+      "name": "modules/cds-merchandising/merchandisingservicesbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/cds-merchandising/merchandisingservicesbackoffice"
+    },
+    {
+      "name": "modules/cds-merchandising/merchandisingsmartedit",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/cds-merchandising/merchandisingsmartedit"
+    },
+    {
+      "name": "modules/cds-merchandising/merchandisingstorefrontsampledataaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/cds-merchandising/merchandisingstorefrontsampledataaddon"
+    },
+    {
+      "name": "modules/china-accelerator-addons/chinesecommercewebservicescommons",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-addons/chinesecommercewebservicescommons"
+    },
+    {
+      "name": "modules/china-accelerator-addons/chineseproductsharingaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-addons/chineseproductsharingaddon"
+    },
+    {
+      "name": "modules/china-accelerator-addons/chinesestoreaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-addons/chinesestoreaddon"
+    },
+    {
+      "name": "modules/china-accelerator-addons/chinesestoreservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-addons/chinesestoreservices"
+    },
+    {
+      "name": "modules/china-accelerator-addons/verticalnavigationaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-addons/verticalnavigationaddon"
+    },
+    {
+      "name": "modules/china-accelerator-address/chineseaddressaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-address/chineseaddressaddon"
+    },
+    {
+      "name": "modules/china-accelerator-address/chineseaddressbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-address/chineseaddressbackoffice"
+    },
+    {
+      "name": "modules/china-accelerator-address/chineseaddressfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-address/chineseaddressfacades"
+    },
+    {
+      "name": "modules/china-accelerator-address/chineseaddressocc",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-address/chineseaddressocc"
+    },
+    {
+      "name": "modules/china-accelerator-address/chineseaddressoccaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-address/chineseaddressoccaddon"
+    },
+    {
+      "name": "modules/china-accelerator-address/chineseaddressservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-address/chineseaddressservices"
+    },
+    {
+      "name": "modules/china-accelerator-address/chinesecommerceorgaddressaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-address/chinesecommerceorgaddressaddon"
+    },
+    {
+      "name": "modules/china-accelerator-address/chinesecommerceorgaddressfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-address/chinesecommerceorgaddressfacades"
+    },
+    {
+      "name": "modules/china-accelerator-alipay-psp/chinesepspalipaysamplesaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-alipay-psp/chinesepspalipaysamplesaddon"
+    },
+    {
+      "name": "modules/china-accelerator-alipay-psp/chinesepspalipaysbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-alipay-psp/chinesepspalipaysbackoffice"
+    },
+    {
+      "name": "modules/china-accelerator-alipay-psp/chinesepspalipayservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-alipay-psp/chinesepspalipayservices"
+    },
+    {
+      "name": "modules/china-accelerator-logistics/chineselogisticaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-logistics/chineselogisticaddon"
+    },
+    {
+      "name": "modules/china-accelerator-logistics/chineselogisticbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-logistics/chineselogisticbackoffice"
+    },
+    {
+      "name": "modules/china-accelerator-logistics/chineselogisticfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-logistics/chineselogisticfacades"
+    },
+    {
+      "name": "modules/china-accelerator-logistics/chineselogisticocc",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-logistics/chineselogisticocc"
+    },
+    {
+      "name": "modules/china-accelerator-logistics/chineselogisticoccaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-logistics/chineselogisticoccaddon"
+    },
+    {
+      "name": "modules/china-accelerator-logistics/chineselogisticservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-logistics/chineselogisticservices"
+    },
+    {
+      "name": "modules/china-accelerator-payment/chinesepaymentaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-payment/chinesepaymentaddon"
+    },
+    {
+      "name": "modules/china-accelerator-payment/chinesepaymentfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-payment/chinesepaymentfacades"
+    },
+    {
+      "name": "modules/china-accelerator-payment/chinesepaymentmock",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-payment/chinesepaymentmock"
+    },
+    {
+      "name": "modules/china-accelerator-payment/chinesepaymentocc",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-payment/chinesepaymentocc"
+    },
+    {
+      "name": "modules/china-accelerator-payment/chinesepaymentoccaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-payment/chinesepaymentoccaddon"
+    },
+    {
+      "name": "modules/china-accelerator-payment/chinesepaymentservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-payment/chinesepaymentservices"
+    },
+    {
+      "name": "modules/china-accelerator-people-profile/chineseprofileaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-people-profile/chineseprofileaddon"
+    },
+    {
+      "name": "modules/china-accelerator-people-profile/chineseprofilefacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-people-profile/chineseprofilefacades"
+    },
+    {
+      "name": "modules/china-accelerator-people-profile/chineseprofileocc",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-people-profile/chineseprofileocc"
+    },
+    {
+      "name": "modules/china-accelerator-people-profile/chineseprofileoccaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-people-profile/chineseprofileoccaddon"
+    },
+    {
+      "name": "modules/china-accelerator-people-profile/chineseprofileservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-people-profile/chineseprofileservices"
+    },
+    {
+      "name": "modules/china-accelerator-tax-invoice/chinesetaxinvoiceaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-tax-invoice/chinesetaxinvoiceaddon"
+    },
+    {
+      "name": "modules/china-accelerator-tax-invoice/chinesetaxinvoicebackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-tax-invoice/chinesetaxinvoicebackoffice"
+    },
+    {
+      "name": "modules/china-accelerator-tax-invoice/chinesetaxinvoicefacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-tax-invoice/chinesetaxinvoicefacades"
+    },
+    {
+      "name": "modules/china-accelerator-tax-invoice/chinesetaxinvoiceocc",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-tax-invoice/chinesetaxinvoiceocc"
+    },
+    {
+      "name": "modules/china-accelerator-tax-invoice/chinesetaxinvoiceoccaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-tax-invoice/chinesetaxinvoiceoccaddon"
+    },
+    {
+      "name": "modules/china-accelerator-tax-invoice/chinesetaxinvoiceservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-tax-invoice/chinesetaxinvoiceservices"
+    },
+    {
+      "name": "modules/china-accelerator-wechat-psp/chinesepspwechatpaymentaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-wechat-psp/chinesepspwechatpaymentaddon"
+    },
+    {
+      "name": "modules/china-accelerator-wechat-psp/chinesepspwechatpaysamplesaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-wechat-psp/chinesepspwechatpaysamplesaddon"
+    },
+    {
+      "name": "modules/china-accelerator-wechat-psp/chinesepspwechatpaysbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-wechat-psp/chinesepspwechatpaysbackoffice"
+    },
+    {
+      "name": "modules/china-accelerator-wechat-psp/chinesepspwechatpayservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/china-accelerator-wechat-psp/chinesepspwechatpayservices"
+    },
+    {
+      "name": "modules/cockpit-applications/deprecated/admincockpit",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/cockpit-applications/deprecated/admincockpit"
+    },
+    {
+      "name": "modules/cockpit-applications/deprecated/productcockpit",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/cockpit-applications/deprecated/productcockpit"
+    },
+    {
+      "name": "modules/cockpit-core/deprecated/cockpit",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/cockpit-core/deprecated/cockpit"
+    },
+    {
+      "name": "modules/commerce-infrastructure-services-client/deprecated/cisavs",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/commerce-infrastructure-services-client/deprecated/cisavs"
+    },
+    {
+      "name": "modules/commerce-infrastructure-services-client/deprecated/cisclient",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/commerce-infrastructure-services-client/deprecated/cisclient"
+    },
+    {
+      "name": "modules/commerce-infrastructure-services-client/deprecated/cisclienttest",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/commerce-infrastructure-services-client/deprecated/cisclienttest"
+    },
+    {
+      "name": "modules/commerce-infrastructure-services-client/deprecated/cispayment",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/commerce-infrastructure-services-client/deprecated/cispayment"
+    },
+    {
+      "name": "modules/commerce-infrastructure-services-client/deprecated/cistax",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/commerce-infrastructure-services-client/deprecated/cistax"
+    },
+    {
+      "name": "modules/commerce-services/commercefacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/commerce-services/commercefacades"
+    },
+    {
+      "name": "modules/commerce-services/commerceservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/commerce-services/commerceservices"
+    },
+    {
+      "name": "modules/commerce-services/commerceservicesbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/commerce-services/commerceservicesbackoffice"
+    },
+    {
+      "name": "modules/commerce-services/commercewebservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/commerce-services/commercewebservices"
+    },
+    {
+      "name": "modules/commerce-services/commercewebservicescommons",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/commerce-services/commercewebservicescommons"
+    },
+    {
+      "name": "modules/commerce-services/commercewebservicestests",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/commerce-services/commercewebservicestests"
+    },
+    {
+      "name": "modules/commerce-services/ycommercewebservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/commerce-services/ycommercewebservices"
+    },
+    {
+      "name": "modules/commerce-services/ycommercewebservicestest",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/commerce-services/ycommercewebservicestest"
+    },
+    {
+      "name": "modules/commerce-services/yocc",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/commerce-services/yocc"
+    },
+    {
+      "name": "modules/commerce-services/yoccaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/commerce-services/yoccaddon"
+    },
+    {
+      "name": "modules/commerce-services/yocctests",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/commerce-services/yocctests"
+    },
+    {
+      "name": "modules/configurable-bundle/configurablebundleaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/configurable-bundle/configurablebundleaddon"
+    },
+    {
+      "name": "modules/configurable-bundle/configurablebundlebackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/configurable-bundle/configurablebundlebackoffice"
+    },
+    {
+      "name": "modules/configurable-bundle/configurablebundlefacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/configurable-bundle/configurablebundlefacades"
+    },
+    {
+      "name": "modules/configurable-bundle/configurablebundleocc",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/configurable-bundle/configurablebundleocc"
+    },
+    {
+      "name": "modules/configurable-bundle/configurablebundleocctests",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/configurable-bundle/configurablebundleocctests"
+    },
+    {
+      "name": "modules/configurable-bundle/configurablebundleservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/configurable-bundle/configurablebundleservices"
+    },
+    {
+      "name": "modules/configurable-bundle/deprecated/configurablebundlecockpits",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/configurable-bundle/deprecated/configurablebundlecockpits"
+    },
+    {
+      "name": "modules/configurator-complex-products/sapproductconfigb2baddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/configurator-complex-products/sapproductconfigb2baddon"
+    },
+    {
+      "name": "modules/configurator-complex-products/sapproductconfigb2bservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/configurator-complex-products/sapproductconfigb2bservices"
+    },
+    {
+      "name": "modules/configurator-complex-products/sapproductconfigfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/configurator-complex-products/sapproductconfigfacades"
+    },
+    {
+      "name": "modules/configurator-complex-products/sapproductconfigocc",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/configurator-complex-products/sapproductconfigocc"
+    },
+    {
+      "name": "modules/configurator-complex-products/sapproductconfigocctests",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/configurator-complex-products/sapproductconfigocctests"
+    },
+    {
+      "name": "modules/configurator-complex-products/sapproductconfigrules",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/configurator-complex-products/sapproductconfigrules"
+    },
+    {
+      "name": "modules/configurator-complex-products/sapproductconfigrulesbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/configurator-complex-products/sapproductconfigrulesbackoffice"
+    },
+    {
+      "name": "modules/configurator-complex-products/sapproductconfigruntimeinterface",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/configurator-complex-products/sapproductconfigruntimeinterface"
+    },
+    {
+      "name": "modules/configurator-complex-products/sapproductconfigruntimemock",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/configurator-complex-products/sapproductconfigruntimemock"
+    },
+    {
+      "name": "modules/configurator-complex-products/sapproductconfigservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/configurator-complex-products/sapproductconfigservices"
+    },
+    {
+      "name": "modules/configurator-complex-products/ysapproductconfigaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/configurator-complex-products/ysapproductconfigaddon"
+    },
+    {
+      "name": "modules/consignment-tracking/consignmenttrackingaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/consignment-tracking/consignmenttrackingaddon"
+    },
+    {
+      "name": "modules/consignment-tracking/consignmenttrackingbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/consignment-tracking/consignmenttrackingbackoffice"
+    },
+    {
+      "name": "modules/consignment-tracking/consignmenttrackingfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/consignment-tracking/consignmenttrackingfacades"
+    },
+    {
+      "name": "modules/consignment-tracking/consignmenttrackingmock",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/consignment-tracking/consignmenttrackingmock"
+    },
+    {
+      "name": "modules/consignment-tracking/consignmenttrackingocc",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/consignment-tracking/consignmenttrackingocc"
+    },
+    {
+      "name": "modules/consignment-tracking/consignmenttrackingoccaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/consignment-tracking/consignmenttrackingoccaddon"
+    },
+    {
+      "name": "modules/consignment-tracking/consignmenttrackingservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/consignment-tracking/consignmenttrackingservices"
+    },
+    {
+      "name": "modules/core-accelerator/acceleratorbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/core-accelerator/acceleratorbackoffice"
+    },
+    {
+      "name": "modules/core-accelerator/acceleratorcms",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/core-accelerator/acceleratorcms"
+    },
+    {
+      "name": "modules/core-accelerator/acceleratorfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/core-accelerator/acceleratorfacades"
+    },
+    {
+      "name": "modules/core-accelerator/acceleratorocc",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/core-accelerator/acceleratorocc"
+    },
+    {
+      "name": "modules/core-accelerator/acceleratorservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/core-accelerator/acceleratorservices"
+    },
+    {
+      "name": "modules/core-accelerator/acceleratorstorefrontcommons",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/core-accelerator/acceleratorstorefrontcommons"
+    },
+    {
+      "name": "modules/core-accelerator/acceleratorwebservicesaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/core-accelerator/acceleratorwebservicesaddon"
+    },
+    {
+      "name": "modules/core-accelerator/addonsupport",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/core-accelerator/addonsupport"
+    },
+    {
+      "name": "modules/coupon/couponbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/coupon/couponbackoffice"
+    },
+    {
+      "name": "modules/coupon/couponfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/coupon/couponfacades"
+    },
+    {
+      "name": "modules/coupon/couponservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/coupon/couponservices"
+    },
+    {
+      "name": "modules/coupon/couponwebservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/coupon/couponwebservices"
+    },
+    {
+      "name": "modules/customer-coupon/customercouponaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/customer-coupon/customercouponaddon"
+    },
+    {
+      "name": "modules/customer-coupon/customercouponbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/customer-coupon/customercouponbackoffice"
+    },
+    {
+      "name": "modules/customer-coupon/customercouponfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/customer-coupon/customercouponfacades"
+    },
+    {
+      "name": "modules/customer-coupon/customercouponocc",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/customer-coupon/customercouponocc"
+    },
+    {
+      "name": "modules/customer-coupon/customercouponoccaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/customer-coupon/customercouponoccaddon"
+    },
+    {
+      "name": "modules/customer-coupon/customercouponsamplesaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/customer-coupon/customercouponsamplesaddon"
+    },
+    {
+      "name": "modules/customer-coupon/customercouponservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/customer-coupon/customercouponservices"
+    },
+    {
+      "name": "modules/customer-interest/customerinterestsaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/customer-interest/customerinterestsaddon"
+    },
+    {
+      "name": "modules/customer-interest/customerinterestsfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/customer-interest/customerinterestsfacades"
+    },
+    {
+      "name": "modules/customer-interest/customerinterestsocc",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/customer-interest/customerinterestsocc"
+    },
+    {
+      "name": "modules/customer-interest/customerinterestsoccaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/customer-interest/customerinterestsoccaddon"
+    },
+    {
+      "name": "modules/customer-interest/customerinterestsservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/customer-interest/customerinterestsservices"
+    },
+    {
+      "name": "modules/customer-service/customersupportbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/customer-service/customersupportbackoffice"
+    },
+    {
+      "name": "modules/customer-service/customerticketingaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/customer-service/customerticketingaddon"
+    },
+    {
+      "name": "modules/customer-service/customerticketingfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/customer-service/customerticketingfacades"
+    },
+    {
+      "name": "modules/customer-service/customerticketingocc",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/customer-service/customerticketingocc"
+    },
+    {
+      "name": "modules/customer-service/customerticketingocctests",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/customer-service/customerticketingocctests"
+    },
+    {
+      "name": "modules/customer-service/ticketsystem",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/customer-service/ticketsystem"
+    },
+    {
+      "name": "modules/customer-service/ticketsystembackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/customer-service/ticketsystembackoffice"
+    },
+    {
+      "name": "modules/data-hub-adapter/datahubadapter",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/data-hub-adapter/datahubadapter"
+    },
+    {
+      "name": "modules/data-hub-adapter/datahubbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/data-hub-adapter/datahubbackoffice"
+    },
+    {
+      "name": "modules/data-hub-adapter/datahubclient",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/data-hub-adapter/datahubclient"
+    },
+    {
+      "name": "modules/data-hub-adapter/dataimportcommons",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/data-hub-adapter/dataimportcommons"
+    },
+    {
+      "name": "modules/entitlements/entitlementbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/entitlements/entitlementbackoffice"
+    },
+    {
+      "name": "modules/entitlements/entitlementfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/entitlements/entitlementfacades"
+    },
+    {
+      "name": "modules/entitlements/entitlementservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/entitlements/entitlementservices"
+    },
+    {
+      "name": "modules/event-tracking/deprecated/eventtrackingmodel",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/event-tracking/deprecated/eventtrackingmodel"
+    },
+    {
+      "name": "modules/event-tracking/deprecated/eventtrackingpublisher",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/event-tracking/deprecated/eventtrackingpublisher"
+    },
+    {
+      "name": "modules/event-tracking/deprecated/eventtrackingservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/event-tracking/deprecated/eventtrackingservices"
+    },
+    {
+      "name": "modules/event-tracking/deprecated/eventtrackingwsaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/event-tracking/deprecated/eventtrackingwsaddon"
+    },
+    {
+      "name": "modules/integration-apis/inboundservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/integration-apis/inboundservices"
+    },
+    {
+      "name": "modules/integration-apis/integrationbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/integration-apis/integrationbackoffice"
+    },
+    {
+      "name": "modules/integration-apis/integrationbackofficetest",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/integration-apis/integrationbackofficetest"
+    },
+    {
+      "name": "modules/integration-apis/integrationmonitoringbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/integration-apis/integrationmonitoringbackoffice"
+    },
+    {
+      "name": "modules/integration-apis/integrationservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/integration-apis/integrationservices"
+    },
+    {
+      "name": "modules/integration-apis/odata2services",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/integration-apis/odata2services"
+    },
+    {
+      "name": "modules/integration-apis/odata2webservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/integration-apis/odata2webservices"
+    },
+    {
+      "name": "modules/integration-apis/odata2webservicesfeaturetests",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/integration-apis/odata2webservicesfeaturetests"
+    },
+    {
+      "name": "modules/integration-apis/outboundservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/integration-apis/outboundservices"
+    },
+    {
+      "name": "modules/integration-apis/outboundsync",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/integration-apis/outboundsync"
+    },
+    {
+      "name": "modules/integration-apis/outboundsyncbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/integration-apis/outboundsyncbackoffice"
+    },
+    {
+      "name": "modules/integration-apis/webhookbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/integration-apis/webhookbackoffice"
+    },
+    {
+      "name": "modules/integration-apis/webhookservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/integration-apis/webhookservices"
+    },
+    {
+      "name": "modules/marketplace/marketplaceaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/marketplace/marketplaceaddon"
+    },
+    {
+      "name": "modules/marketplace/marketplacebackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/marketplace/marketplacebackoffice"
+    },
+    {
+      "name": "modules/marketplace/marketplacebackofficesamplesaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/marketplace/marketplacebackofficesamplesaddon"
+    },
+    {
+      "name": "modules/marketplace/marketplacefacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/marketplace/marketplacefacades"
+    },
+    {
+      "name": "modules/marketplace/marketplaceocc",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/marketplace/marketplaceocc"
+    },
+    {
+      "name": "modules/marketplace/marketplaceoccaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/marketplace/marketplaceoccaddon"
+    },
+    {
+      "name": "modules/marketplace/marketplacepromotionenginesamplesaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/marketplace/marketplacepromotionenginesamplesaddon"
+    },
+    {
+      "name": "modules/marketplace/marketplaceservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/marketplace/marketplaceservices"
+    },
+    {
+      "name": "modules/marketplace/marketplacestore",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/marketplace/marketplacestore"
+    },
+    {
+      "name": "modules/marketplace/yacceleratormarketplaceintegration",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/marketplace/yacceleratormarketplaceintegration"
+    },
+    {
+      "name": "modules/message-center/messagecentercsfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/message-center/messagecentercsfacades"
+    },
+    {
+      "name": "modules/message-center/messagecentercsocc",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/message-center/messagecentercsocc"
+    },
+    {
+      "name": "modules/message-center/messagecentercsoccaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/message-center/messagecentercsoccaddon"
+    },
+    {
+      "name": "modules/message-center/messagecentercsservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/message-center/messagecentercsservices"
+    },
+    {
+      "name": "modules/notification/notificationaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/notification/notificationaddon"
+    },
+    {
+      "name": "modules/notification/notificationfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/notification/notificationfacades"
+    },
+    {
+      "name": "modules/notification/notificationocc",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/notification/notificationocc"
+    },
+    {
+      "name": "modules/notification/notificationoccaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/notification/notificationoccaddon"
+    },
+    {
+      "name": "modules/notification/notificationservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/notification/notificationservices"
+    },
+    {
+      "name": "modules/ondemand-connect/deprecated/ondemandcommon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/ondemand-connect/deprecated/ondemandcommon"
+    },
+    {
+      "name": "modules/ondemand-connect/deprecated/ondemandsampledata",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/ondemand-connect/deprecated/ondemandsampledata"
+    },
+    {
+      "name": "modules/order-management/b2bordermanagementfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/order-management/b2bordermanagementfacades"
+    },
+    {
+      "name": "modules/order-management/b2bordermanagementwebservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/order-management/b2bordermanagementwebservices"
+    },
+    {
+      "name": "modules/order-management/ordermanagementaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/order-management/ordermanagementaddon"
+    },
+    {
+      "name": "modules/order-management/ordermanagementfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/order-management/ordermanagementfacades"
+    },
+    {
+      "name": "modules/order-management/ordermanagementwebservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/order-management/ordermanagementwebservices"
+    },
+    {
+      "name": "modules/order-management/orderselfserviceaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/order-management/orderselfserviceaddon"
+    },
+    {
+      "name": "modules/order-management/warehousing",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/order-management/warehousing"
+    },
+    {
+      "name": "modules/order-management/warehousingbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/order-management/warehousingbackoffice"
+    },
+    {
+      "name": "modules/order-management/warehousingfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/order-management/warehousingfacades"
+    },
+    {
+      "name": "modules/order-management/warehousingwebservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/order-management/warehousingwebservices"
+    },
+    {
+      "name": "modules/order-management/yacceleratorordermanagement",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/order-management/yacceleratorordermanagement"
+    },
+    {
+      "name": "modules/personalization/personalizationcms",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization/personalizationcms"
+    },
+    {
+      "name": "modules/personalization/personalizationcmsbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization/personalizationcmsbackoffice"
+    },
+    {
+      "name": "modules/personalization/personalizationcmsweb",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization/personalizationcmsweb"
+    },
+    {
+      "name": "modules/personalization/personalizationfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization/personalizationfacades"
+    },
+    {
+      "name": "modules/personalization/personalizationintegration",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization/personalizationintegration"
+    },
+    {
+      "name": "modules/personalization/personalizationintegrationbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization/personalizationintegrationbackoffice"
+    },
+    {
+      "name": "modules/personalization/personalizationsampledataaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization/personalizationsampledataaddon"
+    },
+    {
+      "name": "modules/personalization/personalizationservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization/personalizationservices"
+    },
+    {
+      "name": "modules/personalization/personalizationservicesbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization/personalizationservicesbackoffice"
+    },
+    {
+      "name": "modules/personalization/personalizationsmartedit",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization/personalizationsmartedit"
+    },
+    {
+      "name": "modules/personalization/personalizationwebservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization/personalizationwebservices"
+    },
+    {
+      "name": "modules/personalization/previewpersonalizationweb",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization/previewpersonalizationweb"
+    },
+    {
+      "name": "modules/personalization-integration/personalizationaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization-integration/personalizationaddon"
+    },
+    {
+      "name": "modules/personalization-integration/personalizationyprofile",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization-integration/personalizationyprofile"
+    },
+    {
+      "name": "modules/personalization-integration/personalizationyprofilesampledataaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization-integration/personalizationyprofilesampledataaddon"
+    },
+    {
+      "name": "modules/personalization-promotion/personalizationpromotions",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization-promotion/personalizationpromotions"
+    },
+    {
+      "name": "modules/personalization-promotion/personalizationpromotionsbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization-promotion/personalizationpromotionsbackoffice"
+    },
+    {
+      "name": "modules/personalization-promotion/personalizationpromotionssampledataaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization-promotion/personalizationpromotionssampledataaddon"
+    },
+    {
+      "name": "modules/personalization-promotion/personalizationpromotionssmartedit",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization-promotion/personalizationpromotionssmartedit"
+    },
+    {
+      "name": "modules/personalization-promotion/personalizationpromotionsweb",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization-promotion/personalizationpromotionsweb"
+    },
+    {
+      "name": "modules/personalization-search/personalizationsearch",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization-search/personalizationsearch"
+    },
+    {
+      "name": "modules/personalization-search/personalizationsearchbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization-search/personalizationsearchbackoffice"
+    },
+    {
+      "name": "modules/personalization-search/personalizationsearchsamplesaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization-search/personalizationsearchsamplesaddon"
+    },
+    {
+      "name": "modules/personalization-search/personalizationsearchsmartedit",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization-search/personalizationsearchsmartedit"
+    },
+    {
+      "name": "modules/personalization-search/personalizationsearchweb",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/personalization-search/personalizationsearchweb"
+    },
+    {
+      "name": "modules/platform/adminapi",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/platform/adminapi"
+    },
+    {
+      "name": "modules/platform/amazoncloud",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/platform/amazoncloud"
+    },
+    {
+      "name": "modules/platform/auditreportservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/platform/auditreportservices"
+    },
+    {
+      "name": "modules/platform/azurecloud",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/platform/azurecloud"
+    },
+    {
+      "name": "modules/platform/deltadetection",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/platform/deltadetection"
+    },
+    {
+      "name": "modules/platform/deprecated/ldap",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/platform/deprecated/ldap"
+    },
+    {
+      "name": "modules/platform/deprecated/y2ysync",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/platform/deprecated/y2ysync"
+    },
+    {
+      "name": "modules/platform/embeddedserver",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/platform/embeddedserver"
+    },
+    {
+      "name": "modules/platform/gridfsstorage",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/platform/gridfsstorage"
+    },
+    {
+      "name": "modules/platform/groovynature",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/platform/groovynature"
+    },
+    {
+      "name": "modules/platform/mediaconversion",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/platform/mediaconversion"
+    },
+    {
+      "name": "modules/platform/patches",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/platform/patches"
+    },
+    {
+      "name": "modules/platform/patchesdemo",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/platform/patchesdemo"
+    },
+    {
+      "name": "modules/platform/samlsinglesignon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/platform/samlsinglesignon"
+    },
+    {
+      "name": "modules/platform/springintegrationlibs",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/platform/springintegrationlibs"
+    },
+    {
+      "name": "modules/platform/tomcatembeddedserver",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/platform/tomcatembeddedserver"
+    },
+    {
+      "name": "modules/platform/ydocumentcart",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/platform/ydocumentcart"
+    },
+    {
+      "name": "modules/platform/yempty",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/platform/yempty"
+    },
+    {
+      "name": "modules/platform/yhacext",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/platform/yhacext"
+    },
+    {
+      "name": "modules/platform/yvoid",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/platform/yvoid"
+    },
+    {
+      "name": "modules/promotion-engine/promotionenginebackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/promotion-engine/promotionenginebackoffice"
+    },
+    {
+      "name": "modules/promotion-engine/promotionenginesamplesaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/promotion-engine/promotionenginesamplesaddon"
+    },
+    {
+      "name": "modules/promotion-engine/promotionengineservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/promotion-engine/promotionengineservices"
+    },
+    {
+      "name": "modules/rule-engine/droolsruleengineservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/rule-engine/droolsruleengineservices"
+    },
+    {
+      "name": "modules/rule-engine/ordercalculation",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/rule-engine/ordercalculation"
+    },
+    {
+      "name": "modules/rule-engine/rulebuilderbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/rule-engine/rulebuilderbackoffice"
+    },
+    {
+      "name": "modules/rule-engine/ruledefinitions",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/rule-engine/ruledefinitions"
+    },
+    {
+      "name": "modules/rule-engine/ruleengine",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/rule-engine/ruleengine"
+    },
+    {
+      "name": "modules/rule-engine/ruleenginebackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/rule-engine/ruleenginebackoffice"
+    },
+    {
+      "name": "modules/rule-engine/ruleengineservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/rule-engine/ruleengineservices"
+    },
+    {
+      "name": "modules/sap-btp-extensions-integration/kymaintegrationbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/sap-btp-extensions-integration/kymaintegrationbackoffice"
+    },
+    {
+      "name": "modules/sap-btp-extensions-integration/kymaintegrationservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/sap-btp-extensions-integration/kymaintegrationservices"
+    },
+    {
+      "name": "modules/search-services/backofficesearchservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/search-services/backofficesearchservices"
+    },
+    {
+      "name": "modules/search-services/searchbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/search-services/searchbackoffice"
+    },
+    {
+      "name": "modules/search-services/searchprovidercssearchbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/search-services/searchprovidercssearchbackoffice"
+    },
+    {
+      "name": "modules/search-services/searchprovidercssearchservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/search-services/searchprovidercssearchservices"
+    },
+    {
+      "name": "modules/search-services/searchservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/search-services/searchservices"
+    },
+    {
+      "name": "modules/selective-cart/selectivecartaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/selective-cart/selectivecartaddon"
+    },
+    {
+      "name": "modules/selective-cart/selectivecartfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/selective-cart/selectivecartfacades"
+    },
+    {
+      "name": "modules/selective-cart/selectivecartservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/selective-cart/selectivecartservices"
+    },
+    {
+      "name": "modules/selective-cart/selectivecartsplitlistaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/selective-cart/selectivecartsplitlistaddon"
+    },
+    {
+      "name": "modules/stock-notification/stocknotificationaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/stock-notification/stocknotificationaddon"
+    },
+    {
+      "name": "modules/stock-notification/stocknotificationfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/stock-notification/stocknotificationfacades"
+    },
+    {
+      "name": "modules/stock-notification/stocknotificationservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/stock-notification/stocknotificationservices"
+    },
+    {
+      "name": "modules/subscription-bundles/deprecated/subscriptionbundlecockpits",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/subscription-bundles/deprecated/subscriptionbundlecockpits"
+    },
+    {
+      "name": "modules/subscription-bundles/subscriptionbundlebackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/subscription-bundles/subscriptionbundlebackoffice"
+    },
+    {
+      "name": "modules/subscription-bundles/subscriptionbundlefacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/subscription-bundles/subscriptionbundlefacades"
+    },
+    {
+      "name": "modules/subscription-bundles/subscriptionbundleservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/subscription-bundles/subscriptionbundleservices"
+    },
+    {
+      "name": "modules/subscriptions/cissubscription",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/subscriptions/cissubscription"
+    },
+    {
+      "name": "modules/subscriptions/deprecated/subscriptioncockpits",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/subscriptions/deprecated/subscriptioncockpits"
+    },
+    {
+      "name": "modules/subscriptions/subscriptionbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/subscriptions/subscriptionbackoffice"
+    },
+    {
+      "name": "modules/subscriptions/subscriptionfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/subscriptions/subscriptionfacades"
+    },
+    {
+      "name": "modules/subscriptions/subscriptionservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/subscriptions/subscriptionservices"
+    },
+    {
+      "name": "modules/text-field-configurator-template/textfieldconfiguratortemplateaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/text-field-configurator-template/textfieldconfiguratortemplateaddon"
+    },
+    {
+      "name": "modules/text-field-configurator-template/textfieldconfiguratortemplatebackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/text-field-configurator-template/textfieldconfiguratortemplatebackoffice"
+    },
+    {
+      "name": "modules/text-field-configurator-template/textfieldconfiguratortemplatefacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/text-field-configurator-template/textfieldconfiguratortemplatefacades"
+    },
+    {
+      "name": "modules/text-field-configurator-template/textfieldconfiguratortemplateocc",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/text-field-configurator-template/textfieldconfiguratortemplateocc"
+    },
+    {
+      "name": "modules/text-field-configurator-template/textfieldconfiguratortemplateoccaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/text-field-configurator-template/textfieldconfiguratortemplateoccaddon"
+    },
+    {
+      "name": "modules/text-field-configurator-template/textfieldconfiguratortemplateocctest",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/text-field-configurator-template/textfieldconfiguratortemplateocctest"
+    },
+    {
+      "name": "modules/text-field-configurator-template/textfieldconfiguratortemplateocctests",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/text-field-configurator-template/textfieldconfiguratortemplateocctests"
+    },
+    {
+      "name": "modules/text-field-configurator-template/textfieldconfiguratortemplateservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/text-field-configurator-template/textfieldconfiguratortemplateservices"
+    },
+    {
+      "name": "modules/timed-access-promotion-engine/timedaccesspromotionengineaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/timed-access-promotion-engine/timedaccesspromotionengineaddon"
+    },
+    {
+      "name": "modules/timed-access-promotion-engine/timedaccesspromotionenginebackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/timed-access-promotion-engine/timedaccesspromotionenginebackoffice"
+    },
+    {
+      "name": "modules/timed-access-promotion-engine/timedaccesspromotionenginefacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/timed-access-promotion-engine/timedaccesspromotionenginefacades"
+    },
+    {
+      "name": "modules/timed-access-promotion-engine/timedaccesspromotionengineocc",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/timed-access-promotion-engine/timedaccesspromotionengineocc"
+    },
+    {
+      "name": "modules/timed-access-promotion-engine/timedaccesspromotionengineoccaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/timed-access-promotion-engine/timedaccesspromotionengineoccaddon"
+    },
+    {
+      "name": "modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon"
+    },
+    {
+      "name": "modules/timed-access-promotion-engine/timedaccesspromotionengineservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/timed-access-promotion-engine/timedaccesspromotionengineservices"
+    },
+    {
+      "name": "modules/web-content-management-system/cms2",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/web-content-management-system/cms2"
+    },
+    {
+      "name": "modules/web-content-management-system/cms2lib",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/web-content-management-system/cms2lib"
+    },
+    {
+      "name": "modules/web-content-management-system/cmsbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/web-content-management-system/cmsbackoffice"
+    },
+    {
+      "name": "modules/web-content-management-system/cmsfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/web-content-management-system/cmsfacades"
+    },
+    {
+      "name": "modules/web-content-management-system/cmsoccaddon",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/web-content-management-system/cmsoccaddon"
+    },
+    {
+      "name": "modules/web-content-management-system/cmswebservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/web-content-management-system/cmswebservices"
+    },
+    {
+      "name": "modules/web-content-management-system/deprecated/cmscockpit",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/web-content-management-system/deprecated/cmscockpit"
+    },
+    {
+      "name": "modules/web-content-management-system/previewwebservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/web-content-management-system/previewwebservices"
+    },
+    {
+      "name": "modules/web-services-commons/permissionsfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/web-services-commons/permissionsfacades"
+    },
+    {
+      "name": "modules/web-services-commons/permissionswebservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/web-services-commons/permissionswebservices"
+    },
+    {
+      "name": "modules/web-services-commons/webservicescommons",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/web-services-commons/webservicescommons"
+    },
+    {
+      "name": "modules/web-services-commons/ywebservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/web-services-commons/ywebservices"
+    },
+    {
+      "name": "modules/yforms/orbeonweb",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/yforms/orbeonweb"
+    },
+    {
+      "name": "modules/yforms/xyformsbackoffice",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/yforms/xyformsbackoffice"
+    },
+    {
+      "name": "modules/yforms/xyformsfacades",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/yforms/xyformsfacades"
+    },
+    {
+      "name": "modules/yforms/xyformssamples",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/yforms/xyformssamples"
+    },
+    {
+      "name": "modules/yforms/xyformsservices",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/yforms/xyformsservices"
+    },
+    {
+      "name": "modules/yforms/xyformsstorefrontcommons",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/yforms/xyformsstorefrontcommons"
+    },
+    {
+      "name": "modules/yforms/xyformsweb",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/modules/yforms/xyformsweb"
+    },
+    {
+      "name": "platform/resources/configtemplates/develop",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/platform/resources/configtemplates/develop"
+    },
+    {
+      "name": "platform/resources/configtemplates/production",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/platform/resources/configtemplates/production"
+    },
+    {
+      "name": "platform",
+      "path": "/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/platform"
+    }
+  ]
+}

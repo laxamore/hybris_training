@@ -3,13 +3,36 @@
  Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
 -->
 <beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="beans.xsd">
+    <bean class="de.hybris.platform.commercefacades.product.data.ProductData">
+        <property name="genders" type="java.util.List&lt;org.training.facades.product.data.GenderData>"/>
+    </bean>
 
-	<bean class="de.hybris.platform.commercefacades.product.data.ProductData">
-		<property name="genders" type="java.util.List&lt;org.training.facades.product.data.GenderData>"/>
-	</bean>
+    <bean class="org.training.facades.product.data.GenderData">
+        <property name="code" type="String"/>
+        <property name="name" type="String"/>
+    </bean>
 
-	<bean class="org.training.facades.product.data.GenderData">
-		<property name="code" type="String"/>
-		<property name="name" type="String"/>
-	</bean>
+    <bean class="org.training.facades.user.data.PhoneData">
+        <property name="code" type="String"/>
+        <property name="number" type="String"/>
+    </bean>
+
+    <bean class="org.training.facades.user.data.UserData">
+        <property name="name" type="String"/>
+        <property name="email" type="String"/>
+        <property name="phone" type="org.training.facades.user.data.PhoneData"/>
+        <property name="id" type="String"/>
+    </bean>
+
+    <bean class="org.training.facades.product.data.PriceData">
+        <property name="code" type="String"/>
+        <property name="value" type="Integer"/>
+    </bean>
+
+    <bean class="org.training.facades.product.data.ProductData">
+        <property name="name" type="String"/>
+        <property name="id" type="String"/>
+        <property name="price" type="org.training.facades.product.data.PriceData"/>
+        <property name="quantity" type="Integer"/>
+    </bean>
 </beans>
