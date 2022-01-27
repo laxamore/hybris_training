@@ -18,9 +18,12 @@ public class TrainingUserServiceImpl implements TrainingUserService {
 
         UserData userData = new UserData();
 
-        userData.setEmail(userModel.getUid());
-        userData.setName(userModel.getName());
+        if (userModel != null) {
+            userData.setEmail(userModel.getUid());
+            userData.setName(userModel.getName());
+            return userData;
 
-        return userData;
+        }
+        return null;
     }
 }

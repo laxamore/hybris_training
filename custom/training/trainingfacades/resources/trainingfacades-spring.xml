@@ -209,7 +209,6 @@
     <bean id="genderData" class="org.training.facades.product.data.GenderData" scope="prototype"/>
 
     <!--	Training User Facades-->
-    <alias name="trainingUserFacade" alias="trainingUserFacade"/>
     <bean id="trainingUserFacade" class="org.training.facades.user.impl.TrainingUserFacadeImpl"/>
 
     <!--	Training User Converter-->
