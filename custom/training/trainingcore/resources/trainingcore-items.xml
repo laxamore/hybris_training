@@ -24,6 +24,12 @@
             <value code="WHITE" />
             <value code="YELLOW" />
         </enumtype>
+
+        <enumtype generate="true" code="SupplierStatus" autocreate="true" dynamic="true">
+            <value code="VERIFIED"/>
+            <value code="IN_REVIEW"/>
+            <value code="NOT_VERIFIED"/>
+        </enumtype>
     </enumtypes>
 
     <relations>
@@ -186,6 +192,11 @@
                     </attribute>
 
                     <attribute qualifier="province" type="Province">
+                        <modifiers search="true" read="true" write="true" />
+                        <persistence type="property" />
+                    </attribute>
+
+                    <attribute qualifier="status" type="SupplierStatus">
                         <modifiers search="true" read="true" write="true" />
                         <persistence type="property" />
                     </attribute>
