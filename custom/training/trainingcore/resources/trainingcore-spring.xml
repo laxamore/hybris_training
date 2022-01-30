@@ -587,11 +587,10 @@
     <alias name="trainingProductDAO" alias="trainingProductDAO" />
     <bean id="trainingProductDAO" class="org.training.core.service.product.dao.impl.TrainingProductDAOImpl"/>
 
-    <!--	Supplier Service -->
-    <alias name="supplierService" alias="supplierService" />
-    <bean id="supplierService" class="org.training.core.service.supplier.impl.SupplierServiceImpl"/>
-
     <!--	Supplier DAO -->
     <alias name="supplierDAO" alias="supplierDAO" />
     <bean id="supplierDAO" class="org.training.core.service.supplier.dao.impl.SupplierDAOImpl"/>
+
+    <!-- Check Supplier Cronjob -->
+    <bean id="checkSupplierJob" class="org.training.core.job.CheckSupplierJob" parent="abstractJobPerformable"/>
 </beans>

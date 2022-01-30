@@ -8,27 +8,22 @@ import org.training.core.model.SupplierModel;
 import org.training.core.service.supplier.dao.SupplierDAO;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 public class SupplierDAOImpl implements SupplierDAO {
-    private static final String QUERY_TRAINING_USER = "SELECT {pk} FROM {User}";
+    private static final String QERY_SUPPLIER  = "SELECT {pk} FROM {Supplier}";
 
     @Resource
     private FlexibleSearchService flexibleSearchService;
 
     @Override
-    public SupplierModel getAllSupplier() {
-        final FlexibleSearchQuery flexibleSearchForQuery = new FlexibleSearchQuery(QUERY_TRAINING_USER);
+    public List<SupplierModel> getAllSupplier() {
+        final FlexibleSearchQuery flexibleSearchForQuery = new FlexibleSearchQuery(QERY_SUPPLIER);
         final SearchResult<SupplierModel> supplier = flexibleSearchService.search(flexibleSearchForQuery);
 
         if (CollectionUtils.isNotEmpty(supplier.getResult())) {
-            return supplier.getResult().get(0);
+            return supplier.getResult();
         }
         return null;
-    }
-
-    // Need to be implemented
-    @Override
-    public boolean updateSupplierStatus(SupplierModel supplierModel) {
-        return false;
     }
 }

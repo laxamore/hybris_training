@@ -5,24 +5,25 @@
 <items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
 
     <collectiontypes>
-        <collectiontype code="GenderList" elementtype="Gender" autocreate="true" generate="true" type="list" />
-        <collectiontype code="SwatchColorSet" elementtype="SwatchColorEnum" autocreate="true" generate="true" type="set" />
+        <collectiontype code="GenderList" elementtype="Gender" autocreate="true" generate="true" type="list"/>
+        <collectiontype code="SwatchColorSet" elementtype="SwatchColorEnum" autocreate="true" generate="true"
+                        type="set"/>
     </collectiontypes>
 
     <enumtypes>
         <enumtype generate="true" code="SwatchColorEnum" autocreate="true" dynamic="true">
-            <value code="BLACK" />
-            <value code="BLUE" />
-            <value code="BROWN" />
-            <value code="GREEN" />
-            <value code="GREY" />
-            <value code="ORANGE" />
-            <value code="PINK" />
-            <value code="PURPLE" />
-            <value code="RED" />
-            <value code="SILVER" />
-            <value code="WHITE" />
-            <value code="YELLOW" />
+            <value code="BLACK"/>
+            <value code="BLUE"/>
+            <value code="BROWN"/>
+            <value code="GREEN"/>
+            <value code="GREY"/>
+            <value code="ORANGE"/>
+            <value code="PINK"/>
+            <value code="PURPLE"/>
+            <value code="RED"/>
+            <value code="SILVER"/>
+            <value code="WHITE"/>
+            <value code="YELLOW"/>
         </enumtype>
 
         <enumtype generate="true" code="SupplierStatus" autocreate="true" dynamic="true">
@@ -45,103 +46,111 @@
 
         <!-- TypeGroups are for structure of this file only -->
         <typegroup name="Apparel">
-            <itemtype code="ApparelProduct" extends="Product" autocreate="true" generate="true" jaloclass="org.training.core.jalo.ApparelProduct">
+            <itemtype code="ApparelProduct" extends="Product" autocreate="true" generate="true"
+                      jaloclass="org.training.core.jalo.ApparelProduct">
                 <description>Base apparel product extension that contains additional attributes.</description>
                 <attributes>
                     <attribute qualifier="genders" type="GenderList">
                         <description>List of genders that the ApparelProduct is designed for</description>
-                        <modifiers />
-                        <persistence type="property" />
+                        <modifiers/>
+                        <persistence type="property"/>
                     </attribute>
                 </attributes>
             </itemtype>
 
-            <itemtype code="ApparelStyleVariantProduct" extends="VariantProduct" autocreate="true" generate="true" jaloclass="org.training.core.jalo.ApparelStyleVariantProduct">
+            <itemtype code="ApparelStyleVariantProduct" extends="VariantProduct" autocreate="true" generate="true"
+                      jaloclass="org.training.core.jalo.ApparelStyleVariantProduct">
                 <description>Apparel style variant type that contains additional attribute describing variant style.
                 </description>
                 <attributes>
-                    <attribute qualifier="style" type="localized:java.lang.String" metatype="VariantAttributeDescriptor">
+                    <attribute qualifier="style" type="localized:java.lang.String"
+                               metatype="VariantAttributeDescriptor">
                         <description>Color/Pattern of the product.</description>
-                        <modifiers />
-                        <persistence type="property" />
+                        <modifiers/>
+                        <persistence type="property"/>
                     </attribute>
 
                     <attribute qualifier="swatchColors" type="SwatchColorSet">
                         <description>A normalized color mapping to a standardized front-end navigable name.
                         </description>
-                        <modifiers />
-                        <persistence type="property" />
+                        <modifiers/>
+                        <persistence type="property"/>
                     </attribute>
                 </attributes>
 
             </itemtype>
 
-            <itemtype code="ApparelSizeVariantProduct" extends="ApparelStyleVariantProduct" autocreate="true" generate="true" jaloclass="org.training.core.jalo.ApparelSizeVariantProduct">
+            <itemtype code="ApparelSizeVariantProduct" extends="ApparelStyleVariantProduct" autocreate="true"
+                      generate="true" jaloclass="org.training.core.jalo.ApparelSizeVariantProduct">
                 <description>Apparel size variant type that contains additional attribute describing variant size.
                 </description>
                 <attributes>
                     <attribute qualifier="size" type="localized:java.lang.String" metatype="VariantAttributeDescriptor">
                         <description>Size of the product.</description>
-                        <modifiers />
-                        <persistence type="property" />
+                        <modifiers/>
+                        <persistence type="property"/>
                     </attribute>
                 </attributes>
             </itemtype>
         </typegroup>
 
         <typegroup name="Electronics">
-            <itemtype code="ElectronicsColorVariantProduct" extends="VariantProduct" autocreate="true" generate="true" jaloclass="org.training.core.jalo.ElectronicsColorVariantProduct">
+            <itemtype code="ElectronicsColorVariantProduct" extends="VariantProduct" autocreate="true" generate="true"
+                      jaloclass="org.training.core.jalo.ElectronicsColorVariantProduct">
                 <description>Electronics color variant type that contains additional attribute describing variant color.
                 </description>
                 <attributes>
-                    <attribute qualifier="color" type="localized:java.lang.String" metatype="VariantAttributeDescriptor">
+                    <attribute qualifier="color" type="localized:java.lang.String"
+                               metatype="VariantAttributeDescriptor">
                         <description>Color of the product.</description>
-                        <modifiers />
-                        <persistence type="property" />
+                        <modifiers/>
+                        <persistence type="property"/>
                     </attribute>
                 </attributes>
             </itemtype>
         </typegroup>
 
         <typegroup name="Training">
-            <itemtype code="Province" extends="GenericItem" jaloclass="org.training.core.jalo.Province" autocreate="true" generate="true">
-                <deployment table="Provinces" typecode="12001" />
+            <itemtype code="Province" extends="GenericItem" jaloclass="org.training.core.jalo.Province"
+                      autocreate="true" generate="true">
+                <deployment table="Provinces" typecode="12001"/>
                 <attributes>
                     <attribute qualifier="code" type="java.lang.String">
                         <description>Province Code</description>
-                        <modifiers read="true" write="true" search="true" optional="false" unique="true" />
-                        <persistence type="property" />
+                        <modifiers read="true" write="true" search="true" optional="false" unique="true"/>
+                        <persistence type="property"/>
                     </attribute>
                     <attribute qualifier="name" type="localized:java.lang.String">
                         <description>Province Name</description>
-                        <modifiers read="true" write="true" search="true" optional="true" unique="false" />
-                        <persistence type="property" />
+                        <modifiers read="true" write="true" search="true" optional="true" unique="false"/>
+                        <persistence type="property"/>
                     </attribute>
                 </attributes>
                 <indexes>
                     <index name="province_idx" unique="true">
-                        <key attribute="code" />
+                        <key attribute="code"/>
                     </index>
                 </indexes>
             </itemtype>
 
-            <itemtype code="City" extends="GenericItem" jaloclass="org.training.core.jalo.City" autocreate="true" generate="true">
-                <deployment table="City" typecode="12002" />
+            <itemtype code="City" extends="GenericItem" jaloclass="org.training.core.jalo.City" autocreate="true"
+                      generate="true">
+                <deployment table="City" typecode="12002"/>
                 <attributes>
                     <attribute qualifier="code" type="java.lang.String">
                         <description>City Code</description>
-                        <modifiers read="true" write="true" search="true" optional="false" unique="true" />
-                        <persistence type="property" />
+                        <modifiers read="true" write="true" search="true" optional="false" unique="true"/>
+                        <persistence type="property"/>
                     </attribute>
                     <attribute qualifier="name" type="java.lang.String">
                         <description>City Name</description>
-                        <modifiers read="true" write="true" search="true" optional="true" unique="false" />
-                        <persistence type="property" />
+                        <modifiers read="true" write="true" search="true" optional="true" unique="false"/>
+                        <persistence type="property"/>
                     </attribute>
                 </attributes>
                 <indexes>
                     <index name="city_idx" unique="true">
-                        <key attribute="code" />
+                        <key attribute="code"/>
                     </index>
                 </indexes>
             </itemtype>
@@ -150,9 +159,9 @@
                 <attributes>
                     <attribute qualifier="searchable" type="java.lang.Boolean">
                         <description>Is searchable Product</description>
-                        <modifiers />
+                        <modifiers/>
                         <defaultvalue>Boolean.valueOf(true)</defaultvalue>
-                        <persistence type="property" />
+                        <persistence type="property"/>
                     </attribute>
                 </attributes>
             </itemtype>
@@ -161,44 +170,49 @@
                 <attributes>
                     <attribute qualifier="sku" type="java.lang.String">
                         <description>SKU Product</description>
-                        <modifiers initial="true" optional="true" />
-                        <persistence type="property" />
+                        <modifiers initial="true" optional="true"/>
+                        <persistence type="property"/>
                     </attribute>
                     <attribute qualifier="material" type="java.lang.String">
                         <description>Material Product</description>
-                        <modifiers initial="true" optional="true" />
-                        <persistence type="property" />
+                        <modifiers initial="true" optional="true"/>
+                        <persistence type="property"/>
                     </attribute>
                 </attributes>
             </itemtype>
 
-            <itemtype code="Supplier" extends="GenericItem" jaloclass="org.training.core.jalo.Supplier" autocreate="true" generate="true">
-                <deployment table="Supplier" typecode="12003" />
+            <itemtype code="Supplier" extends="GenericItem" jaloclass="org.training.core.jalo.Supplier"
+                      autocreate="true" generate="true">
+                <deployment table="Supplier" typecode="12003"/>
                 <attributes>
                     <attribute qualifier="code" type="java.lang.String">
                         <description>Supplier Code</description>
-                        <modifiers read="true" write="true" search="true" optional="false" unique="true" />
-                        <persistence type="property" />
+                        <modifiers read="true" write="true" search="true" optional="false" unique="true"/>
+                        <persistence type="property"/>
                     </attribute>
 
                     <attribute qualifier="name" type="java.lang.String">
                         <description>Supplier Name</description>
-                        <persistence type="property" />
+                        <modifiers read="true" write="true" search="true" optional="false"/>
+                        <persistence type="property"/>
                     </attribute>
 
                     <attribute qualifier="city" type="City">
-                        <modifiers search="true" read="true" write="true" />
-                        <persistence type="property" />
+                        <modifiers search="true" read="true" write="true"/>
+                        <persistence type="property"/>
                     </attribute>
 
                     <attribute qualifier="province" type="Province">
-                        <modifiers search="true" read="true" write="true" />
-                        <persistence type="property" />
+                        <modifiers search="true" read="true" write="true"/>
+                        <persistence type="property"/>
                     </attribute>
 
                     <attribute qualifier="status" type="SupplierStatus">
-                        <modifiers search="true" read="true" write="true" />
-                        <persistence type="property" />
+                        <modifiers read="true" write="true" search="true" optional="false"/>
+                        <defaultvalue>
+                            em().getEnumerationValue("SupplierStatus","NOT_VERIFIED")
+                        </defaultvalue>
+                        <persistence type="property"/>
                     </attribute>
 
                 </attributes>

@@ -58,3 +58,13 @@ INSERT_UPDATE CronJob; code[unique = true]; job(code)   ; sessionLanguage(isoCod
 
 INSERT_UPDATE Trigger; cronJob(code)[unique = true]; active; cronExpression
                      ; currentDateCron             ; true  ; 0 0 22 ? * FRI *
+
+# CheckSupplierJob
+INSERT_UPDATE ServicelayerJob; code[unique = true]; springID[unique = true]
+                             ; checkSupplier        ; checkSupplierJob
+
+INSERT_UPDATE CronJob; code[unique = true]; job(code)   ; sessionLanguage(isoCode)[default = en]
+                     ; checkSupplierCron    ; checkSupplier ; en
+
+INSERT_UPDATE Trigger; cronJob(code)[unique = true]; active; cronExpression
+                     ; checkSupplierCron             ; true  ; 0 0/1 * 1/1 * ? *
