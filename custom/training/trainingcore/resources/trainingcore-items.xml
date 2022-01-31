@@ -178,6 +178,11 @@
                         <modifiers initial="true" optional="true"/>
                         <persistence type="property"/>
                     </attribute>
+                    <attribute qualifier="color" type="java.lang.String">
+                        <description>Product Color</description>
+                        <modifiers initial="true" optional="true"/>
+                        <persistence type="property"/>
+                    </attribute>
                 </attributes>
             </itemtype>
 

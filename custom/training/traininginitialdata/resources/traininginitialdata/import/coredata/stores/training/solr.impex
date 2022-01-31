@@ -126,3 +126,10 @@ INSERT_UPDATE SolrSortField; sort(indexedType(identifier), code)[unique = true];
                            ; $solrIndexedType:price-asc                        ; priceValue              ; true
                            ; $solrIndexedType:price-desc                       ; priceValue              ; false
 
+# Add new indexed property
+INSERT_UPDATE SolrIndexedProperty; solrIndexedType(identifier)[unique = true]; name[unique = true]; type(code); multiValue[default = true]; facet[default = true]; facetType(code); facetSort(code); priority; visible; categoryField[default = true]; fieldValueProvider    ; facetDisplayNameProvider; topValuesProvider
+                                 ; $solrIndexedType                          ; supplier           ; string    ; false                     ;                      ; Refine         ; Alpha          ; 100     ; true   ; false                        ; supplierValueProvider ;
+
+# Add new color indexed property
+INSERT_UPDATE SolrIndexedProperty; solrIndexedType(identifier)[unique = true]; name[unique = true]; type(code); multiValue[default = true]; facet[default = true]; facetType(code); facetSort(code); priority; visible; categoryField[default = true]; fieldValueProvider    ; facetDisplayNameProvider; topValuesProvider
+                                 ; $solrIndexedType                          ; color              ; string    ; false                     ;                      ; Refine         ; Alpha          ; 100     ; true   ; false                        ;

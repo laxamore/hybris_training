@@ -572,25 +572,37 @@
     <bean id="currentDateJob" class="org.training.core.job.CurrentDateJob" parent="abstractJobPerformable"/>
 
     <!--	Training User Service -->
-    <alias name="trainingUserService" alias="trainingUserService" />
+    <alias name="trainingUserService" alias="trainingUserService"/>
     <bean id="trainingUserService" class="org.training.core.service.user.impl.TrainingUserServiceImpl"/>
 
     <!--	Training User DAO -->
-    <alias name="trainingUserDAO" alias="trainingUserDAO" />
+    <alias name="trainingUserDAO" alias="trainingUserDAO"/>
     <bean id="trainingUserDAO" class="org.training.core.service.user.dao.impl.TrainingUserDAOImpl"/>
 
     <!--	Training Product Service -->
-    <alias name="trainingProductService" alias="trainingProductService" />
+    <alias name="trainingProductService" alias="trainingProductService"/>
     <bean id="trainingProductService" class="org.training.core.service.product.impl.TrainingProductServiceImpl"/>
 
     <!--	Training Product DAO -->
-    <alias name="trainingProductDAO" alias="trainingProductDAO" />
+    <alias name="trainingProductDAO" alias="trainingProductDAO"/>
     <bean id="trainingProductDAO" class="org.training.core.service.product.dao.impl.TrainingProductDAOImpl"/>
 
     <!--	Supplier DAO -->
-    <alias name="supplierDAO" alias="supplierDAO" />
+    <alias name="supplierDAO" alias="supplierDAO"/>
     <bean id="supplierDAO" class="org.training.core.service.supplier.dao.impl.SupplierDAOImpl"/>
 
     <!-- Check Supplier Cronjob -->
     <bean id="checkSupplierJob" class="org.training.core.job.CheckSupplierJob" parent="abstractJobPerformable"/>
+
+    <!--  Supplier Value Provider -->
+    <bean id="supplierValueProvider" class="org.training.core.provider.SupplierValueProvider"
+          parent="abstractPropertyFieldValueProvider">
+        <property name="fieldNameProvider" ref="solrFieldNameProvider"/>
+    </bean>
+
+    <!--  Product Rating Provider -->
+    <!--    <bean id="productRatingProvider" class="org.training.core.provider.ProductRatingProvider"-->
+    <!--          parent="abstractPropertyFieldValueProvider">-->
+    <!--        <property name="fieldNameProvider" ref="solrFieldNameProvider"/>-->
+    <!--    </bean>-->
 </beans>
