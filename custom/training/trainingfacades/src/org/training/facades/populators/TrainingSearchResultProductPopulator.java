@@ -12,5 +12,6 @@ public class TrainingSearchResultProductPopulator extends SearchResultProductPop
         target.setMaterial(this.<String>getValue(source, "material"));
         target.setSupplier(this.<String>getValue(source, "supplier"));
         target.setColor(this.<String>getValue(source, "color"));
+        target.setRating(this.<String>getValue(source, "rating"));
     }
 }

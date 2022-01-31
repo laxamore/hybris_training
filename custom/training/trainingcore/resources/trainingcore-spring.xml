@@ -600,9 +600,9 @@
         <property name="fieldNameProvider" ref="solrFieldNameProvider"/>
     </bean>
 
-    <!--  Product Rating Provider -->
-    <!--    <bean id="productRatingProvider" class="org.training.core.provider.ProductRatingProvider"-->
-    <!--          parent="abstractPropertyFieldValueProvider">-->
-    <!--        <property name="fieldNameProvider" ref="solrFieldNameProvider"/>-->
-    <!--    </bean>-->
+    <!--      Product Rating Provider-->
+    <bean id="productRatingProvider" class="org.training.core.provider.ProductRatingProvider"
+          parent="abstractPropertyFieldValueProvider">
+        <property name="fieldNameProvider" ref="solrFieldNameProvider"/>
+    </bean>
 </beans>

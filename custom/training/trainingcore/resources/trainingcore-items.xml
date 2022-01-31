@@ -183,6 +183,11 @@
                         <modifiers initial="true" optional="true"/>
                         <persistence type="property"/>
                     </attribute>
+                    <attribute qualifier="rating" type="java.lang.Integer">
+                        <description>Product Rating</description>
+                        <modifiers initial="true" optional="true"/>
+                        <persistence type="property"/>
+                    </attribute>
                 </attributes>
             </itemtype>
 

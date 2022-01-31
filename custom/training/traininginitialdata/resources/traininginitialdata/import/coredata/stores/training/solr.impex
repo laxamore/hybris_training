@@ -131,5 +131,9 @@ INSERT_UPDATE SolrIndexedProperty; solrIndexedType(identifier)[unique = true]; n
                                  ; $solrIndexedType                          ; supplier           ; string    ; false                     ;                      ; Refine         ; Alpha          ; 100     ; true   ; false                        ; supplierValueProvider ;
 
 # Add new color indexed property
-INSERT_UPDATE SolrIndexedProperty; solrIndexedType(identifier)[unique = true]; name[unique = true]; type(code); multiValue[default = true]; facet[default = true]; facetType(code); facetSort(code); priority; visible; categoryField[default = true]; fieldValueProvider    ; facetDisplayNameProvider; topValuesProvider
+INSERT_UPDATE SolrIndexedProperty; solrIndexedType(identifier)[unique = true]; name[unique = true]; type(code); multiValue[default = true]; facet[default = true]; facetType(code); facetSort(code); priority; visible; categoryField[default = true]; fieldValueProvider; facetDisplayNameProvider; topValuesProvider
                                  ; $solrIndexedType                          ; color              ; string    ; false                     ;                      ; Refine         ; Alpha          ; 100     ; true   ; false                        ;
+
+# Add new rating indexed property
+INSERT_UPDATE SolrIndexedProperty; solrIndexedType(identifier)[unique = true]; name[unique = true]; type(code); multiValue[default = true]; facet[default = true]; facetType(code); facetSort(code); priority; visible; categoryField[default = true]; fieldValueProvider; facetDisplayNameProvider; topValuesProvider
+                                 ; $solrIndexedType                          ; rating             ; string    ; false                     ;                      ; Refine         ; Alpha          ; 100     ; true   ; false                        ; productRatingProvider

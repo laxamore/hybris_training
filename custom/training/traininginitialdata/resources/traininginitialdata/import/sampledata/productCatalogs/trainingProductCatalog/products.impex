@@ -30,24 +30,24 @@ INSERT_UPDATE TrainingProduct; code[unique = true]; name        ; $supercategori
 #                                    ; COLE        ; COLE-C-1           ; COLC1 ; Chino   ;                             ;          ;                ; "TROUSER"       ; Cole Chino
 #                                    ; COLE        ; COLE-C-2           ; COLC1 ; Chino   ;                             ;          ;                ; "TROUSER"       ; Cole Chino
 
-#INSERT_UPDATE TrainingVariantProduct; $baseProduct; code[unique = true]; sku; material; unit(code)[default = pieces]; $approved; $catalogVersion; $supercategories; description; color
-#                                    ; PULLNBEAR   ; PB-SHIRT-1         ;    ;         ;                             ;          ;                ;                 ;            ; Black
-#                                    ; PULLNBEAR   ; PB-SHIRT-2         ;    ;         ;                             ;          ;                ;                 ;            ; White
-#                                    ; CONVERSE    ; CV-S1              ;    ;         ;                             ;          ;                ;                 ;            ; Red
-#                                    ; CONVERSE    ; CV-S2              ;    ;         ;                             ;          ;                ;                 ;            ; Green
-#                                    ; HURLEY      ; HURLEY-T-1         ;    ;         ;                             ;          ;                ;                 ;            ; Blue
-#                                    ; HURLEY      ; HURLEY-T-2         ;    ;         ;                             ;          ;                ;                 ;            ; Turquoise
-#                                    ; COLE        ; COLE-T-1           ;    ;         ;                             ;          ;                ;                 ;            ; Black
-#                                    ; COLE        ; COLE-C-1           ;    ;         ;                             ;          ;                ;                 ;            ; Grey
-#                                    ; COLE        ; COLE-C-2           ;    ;         ;                             ;          ;                ;                 ;            ; White
+#INSERT_UPDATE TrainingVariantProduct; $baseProduct; code[unique = true]; unit(code)[default = pieces]; $approved; $catalogVersion; $supercategories; color
+#                                    ; PULLNBEAR   ; PB-SHIRT-1         ;                             ;          ;                ; "SHIRT"         ; Black
+#                                    ; PULLNBEAR   ; PB-SHIRT-2         ;                             ;          ;                ; "SHIRT"         ; White
+#                                    ; CONVERSE    ; CV-S1              ;                             ;          ;                ; "SHIRT"         ; Red
+#                                    ; CONVERSE    ; CV-S2              ;                             ;          ;                ; "SHIRT"         ; Green
+#                                    ; HURLEY      ; HURLEY-T-1         ;                             ;          ;                ; "SHIRT"         ; Blue
+#                                    ; HURLEY      ; HURLEY-T-2         ;                             ;          ;                ; "SHIRT"         ; Turquoise
+#                                    ; COLE        ; COLE-T-1           ;                             ;          ;                ; "TROUSER"       ; Black
+#                                    ; COLE        ; COLE-C-1           ;                             ;          ;                ; "TROUSER"       ; Grey
+#                                    ; COLE        ; COLE-C-2           ;                             ;          ;                ; "TROUSER"       ; White
 
-INSERT_UPDATE TrainingVariantProduct; $baseProduct; code[unique = true]; unit(code)[default = pieces]; $approved; $catalogVersion; $supercategories; color
-                                    ; PULLNBEAR   ; PB-SHIRT-1         ;                             ;          ;                ; "SHIRT"         ; Black
-                                    ; PULLNBEAR   ; PB-SHIRT-2         ;                             ;          ;                ; "SHIRT"         ; White
-                                    ; CONVERSE    ; CV-S1              ;                             ;          ;                ; "SHIRT"         ; Red
-                                    ; CONVERSE    ; CV-S2              ;                             ;          ;                ; "SHIRT"         ; Green
-                                    ; HURLEY      ; HURLEY-T-1         ;                             ;          ;                ; "SHIRT"         ; Blue
-                                    ; HURLEY      ; HURLEY-T-2         ;                             ;          ;                ; "SHIRT"         ; Turquoise
-                                    ; COLE        ; COLE-T-1           ;                             ;          ;                ; "TROUSER"       ; Black
-                                    ; COLE        ; COLE-C-1           ;                             ;          ;                ; "TROUSER"       ; Grey
-                                    ; COLE        ; COLE-C-2           ;                             ;          ;                ; "TROUSER"       ; White
+INSERT_UPDATE TrainingVariantProduct; $baseProduct; code[unique = true]; unit(code)[default = pieces]; $approved; $catalogVersion; $supercategories; rating
+                                    ; PULLNBEAR   ; PB-SHIRT-1         ;                             ;          ;                ; "SHIRT"         ; 5
+                                    ; PULLNBEAR   ; PB-SHIRT-2         ;                             ;          ;                ; "SHIRT"         ; 4
+                                    ; CONVERSE    ; CV-S1              ;                             ;          ;                ; "SHIRT"         ; 3
+                                    ; CONVERSE    ; CV-S2              ;                             ;          ;                ; "SHIRT"         ; 2
+                                    ; HURLEY      ; HURLEY-T-1         ;                             ;          ;                ; "SHIRT"         ; 1
+                                    ; HURLEY      ; HURLEY-T-2         ;                             ;          ;                ; "SHIRT"         ; 2
+                                    ; COLE        ; COLE-T-1           ;                             ;          ;                ; "TROUSER"       ; 3
+                                    ; COLE        ; COLE-C-1           ;                             ;          ;                ; "TROUSER"       ; 4
+                                    ; COLE        ; COLE-C-2           ;                             ;          ;                ; "TROUSER"       ; 5
