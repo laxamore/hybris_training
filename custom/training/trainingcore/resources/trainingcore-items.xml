@@ -227,6 +227,28 @@
 
                 </attributes>
             </itemtype>
+
+            <itemtype code="TestActionProcess"
+                      jaloclass="de.hybris.platform.commerceservices.jalo.process.TestActionProcess"
+                      extends="BusinessProcess">
+                <attributes>
+                    <attribute type="java.lang.String" qualifier="something">
+                        <persistence type="property"/>
+                        <description>something</description>
+                    </attribute>
+                </attributes>
+            </itemtype>
+
+            <itemtype code="CustomerActionProcess"
+                      jaloclass="de.hybris.platform.commerceservices.jalo.process.CustomerActionProcess"
+                      extends="BusinessProcess">
+                <attributes>
+                    <attribute type="java.lang.String" qualifier="isApprove">
+                        <persistence type="property"/>
+                        <description>Is Approve</description>
+                    </attribute>
+                </attributes>
+            </itemtype>
         </typegroup>
     </itemtypes>
 

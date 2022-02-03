@@ -605,4 +605,32 @@
           parent="abstractPropertyFieldValueProvider">
         <property name="fieldNameProvider" ref="solrFieldNameProvider"/>
     </bean>
+
+    <!--      Test Action Business Process & Workflow -->
+    <bean id="testActionProcessDefinitionResource"
+          class="de.hybris.platform.processengine.definition.ProcessDefinitionResource">
+        <property name="resource" value="classpath:/trainingcore/processes/test/test-action-process.xml"/>
+    </bean>
+    <import resource="/trainingcore/processes/test/test-action-process-spring.xml"/>
+
+    <bean id="abstractPOSApprovalActionJob" class="org.training.core.workflow.actions.AbstractPOSApprovalActionJob"
+          abstract="true"/>
+    <bean id="registrationPOSRejectionActionJob" class="org.training.core.workflow.actions.POSRejectionActionJob"
+          parent="abstractPOSApprovalActionJob"/>
+    <bean id="registrationPOSApprovalActionJob" class="org.training.core.workflow.actions.POSApprovalActionJob"
+          parent="abstractPOSApprovalActionJob"/>
+
+    <!--      Customer Action Business Process & Workflow -->
+    <bean id="customerActionProcessDefinitionResource"
+          class="de.hybris.platform.processengine.definition.ProcessDefinitionResource">
+        <property name="resource" value="classpath:/trainingcore/processes/customer/customer-action-process.xml"/>
+    </bean>
+    <import resource="/trainingcore/processes/customer/customer-action-process-spring.xml"/>
+
+    <bean id="abstractCustomerApprovalActionJob" class="org.training.core.workflow.actions.AbstractCustomerApprovalActionJob"
+          abstract="true"/>
+    <bean id="registrationCustomerApprovalActionJob" class="org.training.core.workflow.actions.CustomerApprovalActionJob"
+          parent="abstractCustomerApprovalActionJob"/>
+    <bean id="registrationCustomerRejectionActionJob" class="org.training.core.workflow.actions.CustomerRejectionActionJob"
+          parent="abstractCustomerApprovalActionJob"/>
 </beans>

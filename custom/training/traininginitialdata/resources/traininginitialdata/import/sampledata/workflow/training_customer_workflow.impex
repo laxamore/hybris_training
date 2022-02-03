@@ -1,0 +1,29 @@
+INSERT_UPDATE UserGroup; UID[unique = true]; locname[lang = en]  ; backOfficeLoginDisabled; groups(uid)
+                       ; OpsTeam           ; Ops Team User Group ; false                  ; employeegroup,backofficeworkflowadmingroup
+
+INSERT_UPDATE Employee; UID[unique = true]; name     ; groups(uid); password; backOfficeLoginDisabled[default = false];
+                      ; wfl_admin         ; Ops Team ; OpsTeam    ; 1234    ;                                         ;
+
+INSERT_UPDATE WorkflowTemplate; code[unique = true]   ; name[lang = id]   ; name[lang = en]         ; owner(uid); description[lang = id]; description[lang = en]; activationscript; visibleForPrincipals(uid); ; ;
+                              ; NewCustomerRegistration ; Registrasi Customer ; New Customer Registration ; admin     ;                       ;                       ;                 ; wfl_admin                ; ; ;
+
+INSERT_UPDATE WorkflowActionTemplate; code[unique = true]; name[lang = id]       ; name[lang = en]                  ; description[lang = id]; description[lang = en]; principalAssigned(uid); workflow(code)[unique = true]; sendEmail; emailAddress; rendererTemplate(code); actionType(code)
+                                    ; NCR_Confirm        ; Konfirmasi oleh Admin ; Confirmation by an administrator ;                       ;                       ; OpsTeam               ; NewCustomerRegistration        ; false    ;             ;                       ; start
+                                    ; NCR_End            ; Selesai               ; End                              ;                       ;                       ; OpsTeam               ; NewCustomerRegistration        ; false    ;             ;                       ; end
+
+INSERT_UPDATE AutomatedWorkflowActionTemplate; code[unique = true]  ; name[lang = id]   ; name[lang = en]  ; description[lang = id]; description[lang = en]; principalAssigned(uid); workflow(code)[unique = true]; sendEmail; emailAddress; rendererTemplate(code); actionType(code); jobHandler
+                                             ; NCR_Confirm_Positive ; Konfirmasi Customer ; Customer confirmed ;                       ;                       ; OpsTeam               ; NewCustomerRegistration        ; false    ;             ;                       ; normal          ; registrationCustomerApprovalActionJob
+                                             ; NCR_Confirm_Negative ; Tolak Customer      ; Customer rejected  ;                       ;                       ; OpsTeam               ; NewCustomerRegistration        ; false    ;             ;                       ; normal          ; registrationCustomerRejectionActionJob
+
+INSERT_UPDATE WorkflowDecisionTemplate; code[unique = true]; name[lang = id]   ; name[lang = en]; actionTemplate(code) ; description[allownull = true]; ; ; ; ; ;
+                                      ; NCR001             ; Konfirmasi Customer ; Confirm Customer ; NCR_Confirm          ;                              ; ; ; ; ; ;
+                                      ; NCR002             ; Tolak Customer      ; Reject Customer ; NCR_Confirm          ;                              ; ; ; ; ; ;
+                                      ; NCR003             ; Selesai           ; End            ; NCR_Confirm_Positive ;                              ; ; ; ; ; ;
+                                      ; NCR004             ; Selesai           ; End            ; NCR_Confirm_Negative ;                              ; ; ; ; ; ;
+
+INSERT_UPDATE WorkflowActionTemplateLinkTemplateRelation; source(code)[unique = true]; target(code)[unique = true]; andConnectionTemplate; qualifier                                  ; ; ; ; ; ; ;
+                                                        ; NCR001                     ; NCR_Confirm_Positive       ; false                ; WorkflowActionTemplateLinkTemplateRelation ; ; ; ; ; ; ;
+                                                        ; NCR002                     ; NCR_Confirm_Negative       ; false                ; WorkflowActionTemplateLinkTemplateRelation ; ; ; ; ; ; ;
+                                                        ; NCR003                     ; NCR_End                    ; false                ; WorkflowActionTemplateLinkTemplateRelation ; ; ; ; ; ; ;
+                                                        ; NCR004                     ; NCR_End                    ; false                ; WorkflowActionTemplateLinkTemplateRelation ; ; ; ; ; ; ;
+

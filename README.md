@@ -88,3 +88,17 @@ Optional Task:
 
 Tambah attribute ‘Rating’ ke TrainingVariantProductIsi data rating utk semua product(range rating 0-5)Buat custom provider utk mengindex rating sehingga di PLP akan muncul info jika rating di atas 4 maka akan menjadi product ‘Best Seller’Munculkan info Best Seller ini di lister grid item product
 ```
+### Task 02-02-2022
+
+```
+Tugas materi workflow & business process
+1. Buat workflow untuk set customer.description
+2. Jika approve set dengan string 'approve'
+3. Jika reject set dengan string 'reject'
+4. Setelah set description langsung trigger business process dengan 3 action & membawa value string approve/reject
+5. Di action 1 print di log "Test Action 1 OK : "+reject/approve
+6. Jika approve lanjut ke action ke 2
+7. Jika reject langsung ke action ke 3
+8. Di action 2 print di log "Test Action 2 OK" & return OK to success
+9. Di action 3 print di log "Test Action 3 OK" & return NOK to error
+```
