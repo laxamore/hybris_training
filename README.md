@@ -88,6 +88,7 @@ Optional Task:
 
 Tambah attribute ‘Rating’ ke TrainingVariantProductIsi data rating utk semua product(range rating 0-5)Buat custom provider utk mengindex rating sehingga di PLP akan muncul info jika rating di atas 4 maka akan menjadi product ‘Best Seller’Munculkan info Best Seller ini di lister grid item product
 ```
+
 ### Task 02-02-2022
 
 ```
@@ -101,4 +102,17 @@ Tugas materi workflow & business process
 7. Jika reject langsung ke action ke 3
 8. Di action 2 print di log "Test Action 2 OK" & return OK to success
 9. Di action 3 print di log "Test Action 3 OK" & return NOK to error
+```
+
+### Task 03-02-2022
+
+```
+Tugas materi checkout
+1. Tambah Data Country
+2. Ubah harga delivery method
+3. Ubah nama card (payment)
+4. Tampilan data berikut di order confirmation page :
+    - Delivery Address (name, address)
+    - Delivery Method
+    - Country
 ```
