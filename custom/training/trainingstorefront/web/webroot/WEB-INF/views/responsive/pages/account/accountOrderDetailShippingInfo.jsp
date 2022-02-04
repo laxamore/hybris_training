@@ -23,6 +23,35 @@
                                 <order:paymentDetailsItem order="${orderData}"/>
                             </div>
                         </c:if>
+                        <div class="col-sm-6 col-md-4 order-payment-data">
+                            <div class="label-order">
+                                Custom Billing View
+                            </div>
+                            Name:&nbsp;
+                            ${orderData.paymentInfo.billingAddress.title}&nbsp;
+                            ${orderData.paymentInfo.billingAddress.firstName}&nbsp;
+                            ${orderData.paymentInfo.billingAddress.lastName}
+                            <br/>
+                            Address Line:&nbsp;
+                            ${orderData.paymentInfo.billingAddress.line1}&nbsp;
+                            ${orderData.paymentInfo.billingAddress.line2}
+                            <br/>
+                            Town & Region:&nbsp;
+                            ${orderData.paymentInfo.billingAddress.town}&nbsp;
+                            ${orderData.paymentInfo.billingAddress.region.name}
+                            <br/>
+                            Country & Postal Code:&nbsp;
+                            ${orderData.paymentInfo.billingAddress.country.name}&nbsp;,
+                            ${orderData.paymentInfo.billingAddress.postalCode}
+                            <br/>
+                            <br/>
+                            <div class="label-order">
+                                Shipping Method
+                            </div>
+                            ${orderData.deliveryMode.name}
+                            <br/>
+                            ${orderData.deliveryMode.description}
+                        </div>
                     </div>
                 </div>
             </div>
