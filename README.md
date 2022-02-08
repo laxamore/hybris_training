@@ -116,3 +116,9 @@ Tugas materi checkout
     - Delivery Method
     - Country
 ```
+
+### Task 07-02-2022
+
+```
+Create new Template based on AccountPageTemplate and create new page with that template
+```

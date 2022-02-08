@@ -19,13 +19,7 @@
         <extension name="solrserver"/>
         <extension name="backofficesearchservices"/>
         <extension name="searchbackoffice"/>
-        <extension name="cmswebservices"/>
-        <extension name="permissionswebservices"/>
-        <!--<extension name="smarteditwebservices"/>-->
-        <!--<extension name="cmssmarteditwebservices"/>-->
-        <!--<extension name="smarteditaddon"/>-->
-        <!--<extension name="cmssmartedit"/>-->
-        <extension name="cmsbackoffice"/>
+
         <extension name="cmsoccaddon"/>
         <extension name="trainingcore"/>
         <extension name="trainingbackoffice"/>
@@ -33,9 +27,18 @@
         <extension name="trainingfulfilmentprocess"/>
         <extension name="traininginitialdata"/>
         <extension name="trainingstorefront"/>
-        <extension name="trainingcommercewebservices"/>
-        <!--        <extension name="trainingextension"/>-->
-        <!--        <extension-->
-        <!--                dir="/home/laxa/.local/share/sap_hybris/CXCOMM210500P_0-70005661/hybris/bin/custom/trainingextension"/>-->
-    </extensions>
+        <!--<extension name="trainingcommercewebservices"/>-->
+
+        <extension name="cmsbackoffice" />
+		<extension name="cmssmartedit" />
+		<extension name="cmssmarteditwebservices" />
+		<extension name="cmswebservices" />
+		<extension name="permissionswebservices" />
+		<extension name="previewwebservices" />
+		<extension name="npmancillary" />
+		<extension name="smartedit" />
+		<extension name="smarteditaddon" />
+		<extension name="smarteditwebservices" />
+        <extension name="smartedittools" />
+      </extensions>
 </hybrisconfig>

@@ -29,3 +29,4 @@ bin/
 /custom/.metadata
 *backoffice_bof.jar
 Generated*
+#**/node_modules
