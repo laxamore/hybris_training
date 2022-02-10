@@ -122,3 +122,9 @@ Tugas materi checkout
 ```
 Create new Template based on AccountPageTemplate and create new page with that template
 ```
+
+### Task 09-02-2022
+
+```
+Create/Modify New Page From Last Task With CSS(LESS) And Javascript & jQuery For Interactive Usecase
+```

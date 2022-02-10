@@ -5,7 +5,8 @@ module.exports = function(grunt) {
     watch: {
         less: {
             files: ['webroot/WEB-INF/_ui-src/shared/less/variableMapping.less','webroot/WEB-INF/_ui-src/shared/less/generatedVariables.less',
-                    'webroot/WEB-INF/_ui-src/responsive/lib/ybase-*/less/*', 'webroot/WEB-INF/_ui-src/**/themes/**/less/*.less'],
+                    'webroot/WEB-INF/_ui-src/responsive/lib/ybase-*/less/*', 'webroot/WEB-INF/_ui-src/**/themes/**/less/*.less',
+                    'webroot/WEB-INF/_ui-src/responsive/lib/custom/less/*'],
             tasks: ['less'],
         },
         fonts: {
@@ -19,6 +20,10 @@ module.exports = function(grunt) {
         jquery: {
             files: ['webroot/WEB-INF/_ui-src/responsive/lib/jquery*.js'],
             tasks: ['sync:syncjquery'],
+        },
+        customjs: {
+            files: ['webroot/WEB-INF/_ui-src/responsive/lib/custom/*.js'],
+            tasks: ['sync:synccustomjs'],
         },
     },
     less: {
@@ -63,6 +68,13 @@ module.exports = function(grunt) {
     		files: [{
     			cwd: 'webroot/WEB-INF/_ui-src/responsive/lib',
     			src: 'jquery*.js',
+    			dest: 'webroot/_ui/responsive/common/js',
+    		}]
+    	},
+    	synccustomjs: {
+    		files: [{
+    			cwd: 'webroot/WEB-INF/_ui-src/responsive/lib/custom',
+    			src: '*.js',
     			dest: 'webroot/_ui/responsive/common/js',
     		}]
     	}
